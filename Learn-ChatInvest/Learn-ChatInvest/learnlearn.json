@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "name": "Welcome",
+      "imageName": "graduation-cap",
+      "textForTV": "Embark on a journey of financial knowledge and investment insights. Explore educational materials, engage in insightful AI-driven financial conversations, and stay updated on global investment news. Empower yourself to make informed financial decisions."
+    },
+    {
+      "name": "Master your finances with Learn & ChatInvest",
+      "imageName": "dollar 1",
+      "textForTV": "Unlock a wealth of financial knowledge with our educational materials. From credit basics to advanced investment strategies, this App empowers you to make informed financial decisions. Elevate your financial IQ and take control of your financial well-being."
+    },
+    {
+      "name": "Chat with Learn & ChatInvest AI Advisor",
+      "imageName": "chat 1",
+      "textForTV": "Engage in real-time conversations with our AI advisor. Ask questions, get personalized financial insights, and receive expert guidance on credit, investments, and more. This App is your 24/7 financial companion."
+    },
+    {
+      "name": "Stay ahead in the financial world",
+      "imageName": "currency 1",
+      "textForTV": "Get real-time updates on global investment news. App keeps you informed about market trends, potential opportunities, and economic shifts. Stay ahead, stay informed, and make strategic financial decisions."
+    }
+  ]
+}

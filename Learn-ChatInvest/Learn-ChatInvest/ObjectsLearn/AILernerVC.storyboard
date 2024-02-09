@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--AILernerVC-->
+        <scene sceneID="tMk-GI-QhG">
+            <objects>
+                <viewController storyboardIdentifier="AILernerVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="36K-vr-2sh" userLabel="AILernerVC" customClass="AILernerVC" customModule="Learn_ChatInvest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LUy-KG-xer">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sv6-Fm-KCx">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AI Helper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAn-Yb-Nf9">
+                                        <rect key="frame" x="16" y="62.666666666666657" width="200" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="Nry-IB-xPZ"/>
+                                            <constraint firstAttribute="width" constant="200" id="fXa-pl-z3L"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zAn-Yb-Nf9" secondAttribute="bottom" constant="17.5" id="Mgi-5n-YcT"/>
+                                    <constraint firstItem="zAn-Yb-Nf9" firstAttribute="leading" secondItem="sv6-Fm-KCx" secondAttribute="leading" constant="16" id="aHD-6p-e0i"/>
+                                    <constraint firstAttribute="height" constant="108" id="pOQ-OU-70m"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0R3-Ki-rzT">
+                                <rect key="frame" x="321" y="751" width="52" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Ic7-iC-8Ci"/>
+                                    <constraint firstAttribute="width" constant="52" id="S06-B1-ZaE"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="22-send"/>
+                                <connections>
+                                    <action selector="sendQuestionToServerLearn:" destination="36K-vr-2sh" eventType="touchUpInside" id="0p0-tk-qfO"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qho-FQ-fKL">
+                                <rect key="frame" x="10" y="118" width="373" height="623"/>
+                                <color key="backgroundColor" red="0.9450981021" green="0.94509798290000002" blue="0.94509798290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your question..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2qD-dO-LPV">
+                                <rect key="frame" x="20" y="751" width="296" height="52"/>
+                                <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="HBP-hJ-DOZ"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Eq-bK-U8c"/>
+                        <color key="backgroundColor" red="0.91764706370000004" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Qho-FQ-fKL" firstAttribute="top" secondItem="sv6-Fm-KCx" secondAttribute="bottom" constant="10" id="5NM-j6-NbX"/>
+                            <constraint firstItem="6Eq-bK-U8c" firstAttribute="bottom" secondItem="0R3-Ki-rzT" secondAttribute="bottom" constant="15" id="98X-7u-IH6"/>
+                            <constraint firstItem="0R3-Ki-rzT" firstAttribute="leading" secondItem="2qD-dO-LPV" secondAttribute="trailing" constant="5" id="DRc-S3-khe"/>
+                            <constraint firstItem="Qho-FQ-fKL" firstAttribute="leading" secondItem="6Eq-bK-U8c" secondAttribute="leading" constant="10" id="Ddh-Vm-SyT"/>
+                            <constraint firstItem="sv6-Fm-KCx" firstAttribute="top" secondItem="LUy-KG-xer" secondAttribute="top" id="SMO-9U-kiS"/>
+                            <constraint firstItem="6Eq-bK-U8c" firstAttribute="trailing" secondItem="0R3-Ki-rzT" secondAttribute="trailing" constant="20" id="VzD-Qz-sWo"/>
+                            <constraint firstItem="sv6-Fm-KCx" firstAttribute="trailing" secondItem="6Eq-bK-U8c" secondAttribute="trailing" id="hfN-Lj-TBN"/>
+                            <constraint firstItem="2qD-dO-LPV" firstAttribute="top" secondItem="Qho-FQ-fKL" secondAttribute="bottom" constant="10" id="mFM-Sz-nH7"/>
+                            <constraint firstItem="6Eq-bK-U8c" firstAttribute="bottom" secondItem="2qD-dO-LPV" secondAttribute="bottom" constant="15" id="pbN-IB-7Da"/>
+                            <constraint firstItem="sv6-Fm-KCx" firstAttribute="leading" secondItem="6Eq-bK-U8c" secondAttribute="leading" id="qc8-Nt-ZMC"/>
+                            <constraint firstItem="2qD-dO-LPV" firstAttribute="leading" secondItem="6Eq-bK-U8c" secondAttribute="leading" constant="20" id="vJ8-LJ-SyY"/>
+                            <constraint firstItem="6Eq-bK-U8c" firstAttribute="trailing" secondItem="Qho-FQ-fKL" secondAttribute="trailing" constant="10" id="y1W-US-D3D"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bb" destination="0R3-Ki-rzT" id="sLq-8c-CNx"/>
+                        <outlet property="bottSend" destination="98X-7u-IH6" id="PYE-mL-1AI"/>
+                        <outlet property="bottTF" destination="pbN-IB-7Da" id="PiO-8U-ACA"/>
+                        <outlet property="chatTableLearn" destination="Qho-FQ-fKL" id="GLL-nl-hEf"/>
+                        <outlet property="fieldForQuestionTF" destination="2qD-dO-LPV" id="Ely-eT-UC2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JEK-aC-zWP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-731.16279069767438" y="606.43776824034342"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="22-send" width="52" height="52"/>
+    </resources>
+</document>

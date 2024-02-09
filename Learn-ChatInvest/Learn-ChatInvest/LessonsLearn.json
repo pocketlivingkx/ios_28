@@ -1,0 +1,135 @@
+
+        "text": ""
+      },
+      {
+        "title": "",
+        "duration": ,
+        "text": ""
+      },
+      {
+        "title": "",
+        "duration": ,
+        "text": ""
+      }
+    ]
+  },
+ {
+   "name": ,
+   "description": "",
+   "lessons": [
+     {
+       "title": ,
+       "duration": ,
+       "text": ""
+     },
+     {
+       "title": ,
+       "duration": ,
+       "text": ""
+     },
+     {
+       "title": ,
+       "duration": ,
+       "text": ""
+     },
+     {
+       "title": ,
+       "duration": ,
+       "text": ""
+     },
+     {
+       "title": ,
+       "duration": ,
+       "text": ""
+     },
+     {
+       "title": ,
+       "duration": ,
+       "text": ""
+     }
+   ]
+ },
+ {
+   "name": ,
+   "description": "",
+   "lessons": [
+     {
+       "title": "HTML Basics",
+       "duration": "30 min",
+       "text": "Introduction to HTML and its basic elements."
+     },
+     {
+       "title": "CSS Styling",
+       "duration": "35 min",
+       "text": "Learn how to style your HTML with CSS."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     }
+   ]
+ },
+ {
+   "name": "Web Development",
+   "description": "This topic covers web development technologies.",
+   "lessons": [
+     {
+       "title": "HTML Basics",
+       "duration": "30 min",
+       "text": "Introduction to HTML and its basic elements."
+     },
+     {
+       "title": "CSS Styling",
+       "duration": "35 min",
+       "text": "Learn how to style your HTML with CSS."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     },
+     {
+       "title": "JavaScript Fundamentals",
+       "duration": "40 min",
+       "text": "Introduction to JavaScript and its fundamentals."
+     }
+   ]
+ }
+]
+

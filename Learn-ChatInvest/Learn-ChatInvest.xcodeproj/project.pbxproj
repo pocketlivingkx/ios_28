@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040C1B982B760B2F005FA2A7 /* SingleArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C1B972B760B2F005FA2A7 /* SingleArticleViewController.swift */; };
+		040C1B9A2B760B3E005FA2A7 /* SingleArticleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C1B992B760B3E005FA2A7 /* SingleArticleViewController.storyboard */; };
+		040C1B9D2B76254A005FA2A7 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C1B9B2B76254A005FA2A7 /* LessonCell.swift */; };
+		040C1B9E2B76254A005FA2A7 /* LessonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040C1B9C2B76254A005FA2A7 /* LessonCell.xib */; };
+		040C1BA02B762A13005FA2A7 /* LessonsLearn.json in Resources */ = {isa = PBXBuildFile; fileRef = 040C1B9F2B762A13005FA2A7 /* LessonsLearn.json */; };
+		040C1BA22B766379005FA2A7 /* ListLessonsLearnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C1BA12B766379005FA2A7 /* ListLessonsLearnVC.swift */; };
+		040C1BA42B766385005FA2A7 /* ListLessonsLearnVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C1BA32B766385005FA2A7 /* ListLessonsLearnVC.storyboard */; };
+		040C1BA72B767BBD005FA2A7 /* LessonWithTimeLessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C1BA52B767BBD005FA2A7 /* LessonWithTimeLessonCell.swift */; };
+		040C1BA82B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040C1BA62B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib */; };
+		041ACD192B756E37008EBBE8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ACD182B756E37008EBBE8 /* NewsViewController.swift */; };
+		041ACD1B2B757055008EBBE8 /* SetsLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ACD1A2B757055008EBBE8 /* SetsLearnViewController.swift */; };
+		041ACD1D2B75735E008EBBE8 /* LearnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ACD1C2B75735E008EBBE8 /* LearnerViewController.swift */; };
+		041ACD202B757B21008EBBE8 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 041ACD1F2B757B21008EBBE8 /* OpenAI */; };
+		041ACD232B757B4E008EBBE8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 041ACD222B757B4E008EBBE8 /* Alamofire */; };
+		041ACD262B757BEC008EBBE8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 041ACD252B757BEC008EBBE8 /* Kingfisher */; };
+		041ACD282B758C21008EBBE8 /* LearningBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ACD272B758C21008EBBE8 /* LearningBar.swift */; };
+		041ACD2A2B758E81008EBBE8 /* LearnerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD292B758E81008EBBE8 /* LearnerViewController.storyboard */; };
+		041ACD2C2B758F3F008EBBE8 /* AILernerVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD2B2B758F3F008EBBE8 /* AILernerVC.storyboard */; };
+		041ACD2E2B758F92008EBBE8 /* NewsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD2D2B758F92008EBBE8 /* NewsViewController.storyboard */; };
+		041ACD302B758FB3008EBBE8 /* SetsLearnViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD2F2B758FB3008EBBE8 /* SetsLearnViewController.storyboard */; };
+		041ACD332B759A38008EBBE8 /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ACD312B759A38008EBBE8 /* NewsFeedCell.swift */; };
+		041ACD342B759A38008EBBE8 /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD322B759A38008EBBE8 /* NewsFeedCell.xib */; };
+		04767A332B72F270003BAD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04767A322B72F270003BAD5A /* AppDelegate.swift */; };
+		04767A352B72F270003BAD5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04767A342B72F270003BAD5A /* SceneDelegate.swift */; };
+		04767A372B72F270003BAD5A /* MainLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04767A362B72F270003BAD5A /* MainLauncher.swift */; };
+		04767A3A2B72F270003BAD5A /* MainLauncher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04767A382B72F270003BAD5A /* MainLauncher.storyboard */; };
+		04767A3C2B72F272003BAD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04767A3B2B72F272003BAD5A /* Assets.xcassets */; };
+		04767A3F2B72F272003BAD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04767A3D2B72F272003BAD5A /* LaunchScreen.storyboard */; };
+		04CE20542B7699100047607E /* FullLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE20532B7699100047607E /* FullLessonViewController.swift */; };
+		04CE20562B76991B0047607E /* FullLessonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE20552B76991B0047607E /* FullLessonViewController.storyboard */; };
+		04F25EB92B73ADB0008CBE70 /* LearningHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */; };
+		04F25EBB2B73ADC2008CBE70 /* LearningHowToViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EBA2B73ADC2008CBE70 /* LearningHowToViewController.storyboard */; };
+		04F25EBD2B73B591008CBE70 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EBC2B73B591008CBE70 /* Inter-Bold.ttf */; };
+		04F25EBF2B73B59C008CBE70 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EBE2B73B59C008CBE70 /* Inter-Regular.ttf */; };
+		04F25EC12B73B5A5008CBE70 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EC02B73B5A5008CBE70 /* Inter-Medium.ttf */; };
+		04F25EC32B73B7A2008CBE70 /* learnlearn.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EC22B73B7A2008CBE70 /* learnlearn.json */; };
+		04F25EC52B740DF9008CBE70 /* CustomBarLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F25EC42B740DF9008CBE70 /* CustomBarLearnViewController.swift */; };
+		04F25EC72B740E0B008CBE70 /* CustomBarLearnViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EC62B740E0B008CBE70 /* CustomBarLearnViewController.storyboard */; };
+		04F25EC92B74240B008CBE70 /* TabViewTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F25EC82B74240B008CBE70 /* TabViewTrade.swift */; };
+		04F25ECB2B742447008CBE70 /* TabViewTrade.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F25ECA2B742447008CBE70 /* TabViewTrade.xib */; };
+		04F25ECD2B743233008CBE70 /* AILernerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F25ECC2B743233008CBE70 /* AILernerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040C1B972B760B2F005FA2A7 /* SingleArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleArticleViewController.swift; sourceTree = "<group>"; };
+		040C1B992B760B3E005FA2A7 /* SingleArticleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingleArticleViewController.storyboard; sourceTree = "<group>"; };
+		040C1B9B2B76254A005FA2A7 /* LessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
+		040C1B9C2B76254A005FA2A7 /* LessonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonCell.xib; sourceTree = "<group>"; };
+		040C1B9F2B762A13005FA2A7 /* LessonsLearn.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LessonsLearn.json; sourceTree = "<group>"; };
+		040C1BA12B766379005FA2A7 /* ListLessonsLearnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLessonsLearnVC.swift; sourceTree = "<group>"; };
+		040C1BA32B766385005FA2A7 /* ListLessonsLearnVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListLessonsLearnVC.storyboard; sourceTree = "<group>"; };
+		040C1BA52B767BBD005FA2A7 /* LessonWithTimeLessonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonWithTimeLessonCell.swift; sourceTree = "<group>"; };
+		040C1BA62B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonWithTimeLessonCell.xib; sourceTree = "<group>"; };
+		041ACD182B756E37008EBBE8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		041ACD1A2B757055008EBBE8 /* SetsLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsLearnViewController.swift; sourceTree = "<group>"; };
+		041ACD1C2B75735E008EBBE8 /* LearnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerViewController.swift; sourceTree = "<group>"; };
+		041ACD272B758C21008EBBE8 /* LearningBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningBar.swift; sourceTree = "<group>"; };
+		041ACD292B758E81008EBBE8 /* LearnerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LearnerViewController.storyboard; sourceTree = "<group>"; };
+		041ACD2B2B758F3F008EBBE8 /* AILernerVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AILernerVC.storyboard; sourceTree = "<group>"; };
+		041ACD2D2B758F92008EBBE8 /* NewsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsViewController.storyboard; sourceTree = "<group>"; };
+		041ACD2F2B758FB3008EBBE8 /* SetsLearnViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetsLearnViewController.storyboard; sourceTree = "<group>"; };
+		041ACD312B759A38008EBBE8 /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		041ACD322B759A38008EBBE8 /* NewsFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
+		04767A2F2B72F270003BAD5A /* Learn-ChatInvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-ChatInvest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04767A322B72F270003BAD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04767A342B72F270003BAD5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04767A362B72F270003BAD5A /* MainLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLauncher.swift; sourceTree = "<group>"; };
+		04767A392B72F270003BAD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainLauncher.storyboard; sourceTree = "<group>"; };
+		04767A3B2B72F272003BAD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04767A3E2B72F272003BAD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04767A402B72F272003BAD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE20532B7699100047607E /* FullLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullLessonViewController.swift; sourceTree = "<group>"; };
+		04CE20552B76991B0047607E /* FullLessonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FullLessonViewController.storyboard; sourceTree = "<group>"; };
+		04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningHowToViewController.swift; sourceTree = "<group>"; };
+		04F25EBA2B73ADC2008CBE70 /* LearningHowToViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LearningHowToViewController.storyboard; sourceTree = "<group>"; };
+		04F25EBC2B73B591008CBE70 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		04F25EBE2B73B59C008CBE70 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		04F25EC02B73B5A5008CBE70 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		04F25EC22B73B7A2008CBE70 /* learnlearn.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = learnlearn.json; sourceTree = "<group>"; };
+		04F25EC42B740DF9008CBE70 /* CustomBarLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarLearnViewController.swift; sourceTree = "<group>"; };
+		04F25EC62B740E0B008CBE70 /* CustomBarLearnViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomBarLearnViewController.storyboard; sourceTree = "<group>"; };
+		04F25EC82B74240B008CBE70 /* TabViewTrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTrade.swift; sourceTree = "<group>"; };
+		04F25ECA2B742447008CBE70 /* TabViewTrade.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabViewTrade.xib; sourceTree = "<group>"; };
+		04F25ECC2B743233008CBE70 /* AILernerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILernerVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04767A2C2B72F270003BAD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041ACD262B757BEC008EBBE8 /* Kingfisher in Frameworks */,
+				041ACD202B757B21008EBBE8 /* OpenAI in Frameworks */,
+				041ACD232B757B4E008EBBE8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04767A262B72F270003BAD5A = {
+			isa = PBXGroup;
+			children = (
+				04767A312B72F270003BAD5A /* Learn-ChatInvest */,
+				04767A302B72F270003BAD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04767A302B72F270003BAD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04767A2F2B72F270003BAD5A /* Learn-ChatInvest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04767A312B72F270003BAD5A /* Learn-ChatInvest */ = {
+			isa = PBXGroup;
+			children = (
+				04F25EB72B73AD93008CBE70 /* ObjectsLearn */,
+				04767A322B72F270003BAD5A /* AppDelegate.swift */,
+				04767A342B72F270003BAD5A /* SceneDelegate.swift */,
+				04767A362B72F270003BAD5A /* MainLauncher.swift */,
+				04767A382B72F270003BAD5A /* MainLauncher.storyboard */,
+				04767A3B2B72F272003BAD5A /* Assets.xcassets */,
+				04767A3D2B72F272003BAD5A /* LaunchScreen.storyboard */,
+				04767A402B72F272003BAD5A /* Info.plist */,
+				04F25EBC2B73B591008CBE70 /* Inter-Bold.ttf */,
+				04F25EBE2B73B59C008CBE70 /* Inter-Regular.ttf */,
+				04F25EC02B73B5A5008CBE70 /* Inter-Medium.ttf */,
+				04F25EC22B73B7A2008CBE70 /* learnlearn.json */,
+				04F25EC82B74240B008CBE70 /* TabViewTrade.swift */,
+				04F25ECA2B742447008CBE70 /* TabViewTrade.xib */,
+				041ACD312B759A38008EBBE8 /* NewsFeedCell.swift */,
+				041ACD322B759A38008EBBE8 /* NewsFeedCell.xib */,
+				040C1B9B2B76254A005FA2A7 /* LessonCell.swift */,
+				040C1B9C2B76254A005FA2A7 /* LessonCell.xib */,
+				040C1B9F2B762A13005FA2A7 /* LessonsLearn.json */,
+			);
+			path = "Learn-ChatInvest";
+			sourceTree = "<group>";
+		};
+		04F25EB72B73AD93008CBE70 /* ObjectsLearn */ = {
+			isa = PBXGroup;
+			children = (
+				041ACD272B758C21008EBBE8 /* LearningBar.swift */,
+				04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */,
+				04F25EBA2B73ADC2008CBE70 /* LearningHowToViewController.storyboard */,
+				04F25EC42B740DF9008CBE70 /* CustomBarLearnViewController.swift */,
+				04F25EC62B740E0B008CBE70 /* CustomBarLearnViewController.storyboard */,
+				04F25ECC2B743233008CBE70 /* AILernerVC.swift */,
+				041ACD182B756E37008EBBE8 /* NewsViewController.swift */,
+				041ACD1A2B757055008EBBE8 /* SetsLearnViewController.swift */,
+				041ACD1C2B75735E008EBBE8 /* LearnerViewController.swift */,
+				041ACD292B758E81008EBBE8 /* LearnerViewController.storyboard */,
+				041ACD2B2B758F3F008EBBE8 /* AILernerVC.storyboard */,
+				041ACD2D2B758F92008EBBE8 /* NewsViewController.storyboard */,
+				041ACD2F2B758FB3008EBBE8 /* SetsLearnViewController.storyboard */,
+				040C1B972B760B2F005FA2A7 /* SingleArticleViewController.swift */,
+				040C1B992B760B3E005FA2A7 /* SingleArticleViewController.storyboard */,
+				040C1BA12B766379005FA2A7 /* ListLessonsLearnVC.swift */,
+				040C1BA32B766385005FA2A7 /* ListLessonsLearnVC.storyboard */,
+				040C1BA52B767BBD005FA2A7 /* LessonWithTimeLessonCell.swift */,
+				040C1BA62B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib */,
+				04CE20532B7699100047607E /* FullLessonViewController.swift */,
+				04CE20552B76991B0047607E /* FullLessonViewController.storyboard */,
+			);
+			path = ObjectsLearn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04767A2E2B72F270003BAD5A /* Learn-ChatInvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04767A432B72F272003BAD5A /* Build configuration list for PBXNativeTarget "Learn-ChatInvest" */;
+			buildPhases = (
+				04767A2B2B72F270003BAD5A /* Sources */,
+				04767A2C2B72F270003BAD5A /* Frameworks */,
+				04767A2D2B72F270003BAD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learn-ChatInvest";
+			packageProductDependencies = (
+				041ACD1F2B757B21008EBBE8 /* OpenAI */,
+				041ACD222B757B4E008EBBE8 /* Alamofire */,
+				041ACD252B757BEC008EBBE8 /* Kingfisher */,
+			);
+			productName = "Learn-ChatInvest";
+			productReference = 04767A2F2B72F270003BAD5A /* Learn-ChatInvest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04767A272B72F270003BAD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04767A2E2B72F270003BAD5A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 04767A2A2B72F270003BAD5A /* Build configuration list for PBXProject "Learn-ChatInvest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04767A262B72F270003BAD5A;
+			packageReferences = (
+				041ACD1E2B757B21008EBBE8 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				041ACD212B757B4E008EBBE8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				041ACD242B757BEC008EBBE8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 04767A302B72F270003BAD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04767A2E2B72F270003BAD5A /* Learn-ChatInvest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04767A2D2B72F270003BAD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040C1BA82B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib in Resources */,
+				04CE20562B76991B0047607E /* FullLessonViewController.storyboard in Resources */,
+				040C1B9E2B76254A005FA2A7 /* LessonCell.xib in Resources */,
+				04767A3F2B72F272003BAD5A /* LaunchScreen.storyboard in Resources */,
+				041ACD302B758FB3008EBBE8 /* SetsLearnViewController.storyboard in Resources */,
+				040C1B9A2B760B3E005FA2A7 /* SingleArticleViewController.storyboard in Resources */,
+				041ACD2E2B758F92008EBBE8 /* NewsViewController.storyboard in Resources */,
+				04F25EBD2B73B591008CBE70 /* Inter-Bold.ttf in Resources */,
+				04F25EBB2B73ADC2008CBE70 /* LearningHowToViewController.storyboard in Resources */,
+				04767A3C2B72F272003BAD5A /* Assets.xcassets in Resources */,
+				04F25EC32B73B7A2008CBE70 /* learnlearn.json in Resources */,
+				04F25ECB2B742447008CBE70 /* TabViewTrade.xib in Resources */,
+				04F25EC12B73B5A5008CBE70 /* Inter-Medium.ttf in Resources */,
+				041ACD2C2B758F3F008EBBE8 /* AILernerVC.storyboard in Resources */,
+				04F25EBF2B73B59C008CBE70 /* Inter-Regular.ttf in Resources */,
+				040C1BA42B766385005FA2A7 /* ListLessonsLearnVC.storyboard in Resources */,
+				040C1BA02B762A13005FA2A7 /* LessonsLearn.json in Resources */,
+				041ACD342B759A38008EBBE8 /* NewsFeedCell.xib in Resources */,
+				041ACD2A2B758E81008EBBE8 /* LearnerViewController.storyboard in Resources */,
+				04767A3A2B72F270003BAD5A /* MainLauncher.storyboard in Resources */,
+				04F25EC72B740E0B008CBE70 /* CustomBarLearnViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04767A2B2B72F270003BAD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE20542B7699100047607E /* FullLessonViewController.swift in Sources */,
+				04F25EB92B73ADB0008CBE70 /* LearningHowToViewController.swift in Sources */,
+				04F25ECD2B743233008CBE70 /* AILernerVC.swift in Sources */,
+				041ACD332B759A38008EBBE8 /* NewsFeedCell.swift in Sources */,
+				041ACD1B2B757055008EBBE8 /* SetsLearnViewController.swift in Sources */,
+				040C1BA22B766379005FA2A7 /* ListLessonsLearnVC.swift in Sources */,
+				04767A372B72F270003BAD5A /* MainLauncher.swift in Sources */,
+				041ACD1D2B75735E008EBBE8 /* LearnerViewController.swift in Sources */,
+				040C1B982B760B2F005FA2A7 /* SingleArticleViewController.swift in Sources */,
+				040C1B9D2B76254A005FA2A7 /* LessonCell.swift in Sources */,
+				04767A332B72F270003BAD5A /* AppDelegate.swift in Sources */,
+				04F25EC92B74240B008CBE70 /* TabViewTrade.swift in Sources */,
+				04767A352B72F270003BAD5A /* SceneDelegate.swift in Sources */,
+				040C1BA72B767BBD005FA2A7 /* LessonWithTimeLessonCell.swift in Sources */,
+				041ACD282B758C21008EBBE8 /* LearningBar.swift in Sources */,
+				04F25EC52B740DF9008CBE70 /* CustomBarLearnViewController.swift in Sources */,
+				041ACD192B756E37008EBBE8 /* NewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04767A382B72F270003BAD5A /* MainLauncher.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04767A392B72F270003BAD5A /* Base */,
+			);
+			name = MainLauncher.storyboard;
+			sourceTree = "<group>";
+		};
+		04767A3D2B72F272003BAD5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04767A3E2B72F272003BAD5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04767A412B72F272003BAD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04767A422B72F272003BAD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04767A442B72F272003BAD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67A656CXMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-ChatInvest/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainLauncher;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi.learninvest.Learn-ChatInvest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04767A452B72F272003BAD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67A656CXMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-ChatInvest/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainLauncher;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi.learninvest.Learn-ChatInvest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04767A2A2B72F270003BAD5A /* Build configuration list for PBXProject "Learn-ChatInvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04767A412B72F272003BAD5A /* Debug */,
+				04767A422B72F272003BAD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04767A432B72F272003BAD5A /* Build configuration list for PBXNativeTarget "Learn-ChatInvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04767A442B72F272003BAD5A /* Debug */,
+				04767A452B72F272003BAD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		041ACD1E2B757B21008EBBE8 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.5;
+			};
+		};
+		041ACD212B757B4E008EBBE8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		041ACD242B757BEC008EBBE8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		041ACD1F2B757B21008EBBE8 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041ACD1E2B757B21008EBBE8 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		041ACD222B757B4E008EBBE8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041ACD212B757B4E008EBBE8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		041ACD252B757BEC008EBBE8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041ACD242B757BEC008EBBE8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04767A272B72F270003BAD5A /* Project object */;
+}

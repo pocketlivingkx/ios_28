@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Full Lesson View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FullLessonViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="FullLessonViewController" customModule="Learn_ChatInvest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hR5-E4-X7z">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="Rs9-d1-aRJ">
+                                        <rect key="frame" x="51" y="53" width="332" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1F7-Eu-HKW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EE0-qx-Vp4">
+                                        <rect key="frame" x="16" y="60.666666666666657" width="25" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="cJd-Ir-wAh"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="chevron.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="toBackLesson:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="YKK-cZ-kgU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="XEh-dW-tYj"/>
+                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="EE0-qx-Vp4" firstAttribute="centerY" secondItem="Rs9-d1-aRJ" secondAttribute="centerY" id="2Wj-aA-rgq"/>
+                                    <constraint firstItem="Rs9-d1-aRJ" firstAttribute="leading" secondItem="EE0-qx-Vp4" secondAttribute="trailing" constant="10" id="9U5-RC-0KK"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rs9-d1-aRJ" secondAttribute="bottom" constant="5" id="D7h-FK-bVH"/>
+                                    <constraint firstAttribute="height" constant="108" id="KOE-lW-v1D"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rs9-d1-aRJ" secondAttribute="trailing" constant="10" id="MOg-YL-v71"/>
+                                    <constraint firstItem="EE0-qx-Vp4" firstAttribute="leading" secondItem="hR5-E4-X7z" secondAttribute="leading" constant="16" id="UE4-C7-eSu"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="KWb-j5-CKo">
+                                <rect key="frame" x="16" y="124" width="361" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="1oA-sl-dRH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="oH0-iM-iul">
+                                <rect key="frame" x="116.66666666666669" y="772" width="160" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="sQQ-Z6-10K"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" red="0.14469879869999999" green="0.58608829979999999" blue="0.99983435870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCr-gW-Htn">
+                                <rect key="frame" x="26.666666666666657" y="707" width="340" height="50"/>
+                                <color key="backgroundColor" red="0.2890715599" green="0.5776691437" blue="0.97260051970000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="340" id="973-gg-Ndi"/>
+                                    <constraint firstAttribute="height" constant="50" id="H6R-dp-TBA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Next Lesson" image="arrow.backward" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toNextLearnLesson:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Zsm-fg-JdA"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VR9-mk-AYS">
+                                <rect key="frame" x="20" y="199" width="353" height="488"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MCr-gW-Htn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="2WW-c5-1ky"/>
+                            <constraint firstItem="hR5-E4-X7z" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="5fw-Wu-EDp"/>
+                            <constraint firstItem="VR9-mk-AYS" firstAttribute="top" secondItem="KWb-j5-CKo" secondAttribute="bottom" constant="20" id="6dN-Jw-MFg"/>
+                            <constraint firstItem="MCr-gW-Htn" firstAttribute="top" secondItem="VR9-mk-AYS" secondAttribute="bottom" constant="20" id="6xJ-2R-XXz"/>
+                            <constraint firstItem="hR5-E4-X7z" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="AZS-Fy-D9o"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="oH0-iM-iul" secondAttribute="bottom" constant="20" id="IOJ-nk-GkC"/>
+                            <constraint firstItem="oH0-iM-iul" firstAttribute="top" secondItem="MCr-gW-Htn" secondAttribute="bottom" constant="15" id="Kdo-c6-vjE"/>
+                            <constraint firstItem="KWb-j5-CKo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="O6u-0J-XpX"/>
+                            <constraint firstItem="oH0-iM-iul" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="W3K-Ul-gMS"/>
+                            <constraint firstItem="hR5-E4-X7z" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cUn-B3-WsA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KWb-j5-CKo" secondAttribute="trailing" constant="16" id="ey9-Xz-j6s"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VR9-mk-AYS" secondAttribute="trailing" constant="20" id="kjK-gS-Ksz"/>
+                            <constraint firstItem="VR9-mk-AYS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="p8k-vq-1eh"/>
+                            <constraint firstItem="KWb-j5-CKo" firstAttribute="top" secondItem="hR5-E4-X7z" secondAttribute="bottom" constant="16" id="qGf-4Z-FCa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lessonMainTitle" destination="Rs9-d1-aRJ" id="kmj-aC-1eT"/>
+                        <outlet property="lessonText" destination="VR9-mk-AYS" id="F3b-nE-beY"/>
+                        <outlet property="lessonTitle" destination="KWb-j5-CKo" id="vyr-ve-SW8"/>
+                        <outlet property="sheeter" destination="oH0-iM-iul" id="PAd-ZJ-wSR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="95"/>
+        <image name="chevron.left" catalog="system" width="97" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

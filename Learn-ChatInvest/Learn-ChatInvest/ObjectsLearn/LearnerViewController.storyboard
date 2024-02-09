@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Learner View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LearnerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="LearnerViewController" customModule="Learn_ChatInvest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOt-Yn-roT">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40t-f4-3EC">
+                                        <rect key="frame" x="16" y="62.666666666666657" width="200" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="EVw-az-I5o"/>
+                                            <constraint firstAttribute="height" constant="28" id="TWb-Cc-S0h"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="D4M-ho-ZGb"/>
+                                    <constraint firstAttribute="bottom" secondItem="40t-f4-3EC" secondAttribute="bottom" constant="17.5" id="LIF-Je-6By"/>
+                                    <constraint firstItem="40t-f4-3EC" firstAttribute="leading" secondItem="KOt-Yn-roT" secondAttribute="leading" constant="16" id="UYu-jU-Ltb"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-e9-qi7">
+                                <rect key="frame" x="20" y="128" width="353" height="660"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.91764706370000004" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="GTn-e9-qi7" secondAttribute="bottom" constant="30" id="8OW-B6-0dh"/>
+                            <constraint firstItem="GTn-e9-qi7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="fxi-RZ-VGJ"/>
+                            <constraint firstItem="KOt-Yn-roT" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="igv-UI-1h2"/>
+                            <constraint firstItem="GTn-e9-qi7" firstAttribute="top" secondItem="KOt-Yn-roT" secondAttribute="bottom" constant="20" id="j8b-Je-bz0"/>
+                            <constraint firstItem="KOt-Yn-roT" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="lqF-LA-wMT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GTn-e9-qi7" secondAttribute="trailing" constant="20" id="yfY-sx-nWU"/>
+                            <constraint firstItem="KOt-Yn-roT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zZw-Dn-Did"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableForTopicks" destination="GTn-e9-qi7" id="e3U-ph-zeK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="4"/>
+        </scene>
+    </scenes>
+</document>

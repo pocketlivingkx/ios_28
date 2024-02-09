@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--News View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NewsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="NewsViewController" customModule="Learn_ChatInvest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rth-Cv-i0H">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance News" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rev-kM-atv">
+                                        <rect key="frame" x="16" y="62.666666666666657" width="200" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="0C1-Xw-D3R"/>
+                                            <constraint firstAttribute="width" constant="200" id="Jvx-41-1NA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="7IT-mU-6Mc"/>
+                                    <constraint firstAttribute="bottom" secondItem="rev-kM-atv" secondAttribute="bottom" constant="17.5" id="gfC-EI-q32"/>
+                                    <constraint firstItem="rev-kM-atv" firstAttribute="leading" secondItem="Rth-Cv-i0H" secondAttribute="leading" constant="16" id="prx-47-Hel"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q7c-fi-qnK">
+                                <rect key="frame" x="20" y="128" width="353" height="660"/>
+                                <color key="backgroundColor" red="0.91814285520000005" green="0.91814285520000005" blue="0.91814285520000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.91764706370000004" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Q7c-fi-qnK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="QIx-8l-VSN"/>
+                            <constraint firstItem="Rth-Cv-i0H" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="RbB-eV-HwU"/>
+                            <constraint firstItem="Rth-Cv-i0H" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Tbl-T7-nm8"/>
+                            <constraint firstItem="Rth-Cv-i0H" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="VkW-VV-BLS"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Q7c-fi-qnK" secondAttribute="bottom" constant="30" id="ntq-db-svq"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Q7c-fi-qnK" secondAttribute="trailing" constant="20" id="rdS-OW-YSx"/>
+                            <constraint firstItem="Q7c-fi-qnK" firstAttribute="top" secondItem="Rth-Cv-i0H" secondAttribute="bottom" constant="20" id="ywb-cm-FLQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableForNewsLearning" destination="Q7c-fi-qnK" id="kfO-Qk-LKQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="4"/>
+        </scene>
+    </scenes>
+</document>
