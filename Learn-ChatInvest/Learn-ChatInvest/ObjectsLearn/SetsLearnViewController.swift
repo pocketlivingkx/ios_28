@@ -11,13 +11,13 @@ class SetsLearnViewController: UIViewController {
     }
 
     @IBAction func showTermsLearning(_ sender: Any) {
-        if let urlLearning = URL(string: "https://onliner.by") {
+        if let urlLearning = URL(string: "https://docs.google.com/document/d/1PNlPEgnkDa96ePQM9tx-ISZ_G257g8eaMTV8Yin3y8M/edit?usp=sharing") {
                  UIApplication.shared.open(urlLearning)
              }
     }
     
     @IBAction func showPrivacyLearning(_ sender: Any) {
-        if let urlLearning = URL(string: "https://mail.ru") {
+        if let urlLearning = URL(string: "https://docs.google.com/document/d/1uZ2eCjGWsrRaSmS-KA62ujEy1FYlpIAJfZbAAHMd9-Q/edit?usp=sharing") {
                  UIApplication.shared.open(urlLearning)
              }
     }
