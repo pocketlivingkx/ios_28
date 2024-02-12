@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What is the primary purpose of bonds in the financial market?",
+      "options": [
+        {
+          "option": "Issuing new stocks",
+          "is_correct": false
+        },
+        {
+          "option": "Facilitating currency exchange",
+          "is_correct": false
+        },
+        {
+          "option": "Raising capital through debt",
+          "is_correct": true
+        },
+        {
+          "option": "Determining interest rates",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How do bond prices and interest rates generally relate to each other?",
+      "options": [
+        {
+          "option": "Inversely proportional - as interest rates rise, bond prices tend to fall",
+          "is_correct": true
+        },
+        {
+          "option": "Directly proportional - as interest rates rise, bond prices rise",
+          "is_correct": false
+        },
+        {
+          "option": "No correlation - bond prices and interest rates are unrelated",
+          "is_correct": false
+        },
+        {
+          "option": "Inversely proportional - as interest rates rise, bond prices also rise",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the term for the fixed interest payment that a bondholder receives periodically?",
+      "options": [
+        {
+          "option": "Dividend",
+          "is_correct": false
+        },
+        {
+          "option": "Coupon payment",
+          "is_correct": true
+        },
+        {
+          "option": "Capital gain",
+          "is_correct": false
+        },
+        {
+          "option": "Yield",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What does the credit rating of a bond represent?",
+      "options": [
+        {
+          "option": "The face value of the bond",
+          "is_correct": false
+        },
+        {
+          "option": "The issuer's creditworthiness and the likelihood of default",
+          "is_correct": true
+        },
+        {
+          "option": "The bond's maturity date",
+          "is_correct": false
+        },
+        {
+          "option": "The coupon rate of the bond",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the significance of the term 'maturity date' for a bond?",
+      "options": [
+        {
+          "option": "The date when the bond's credit rating is reassessed",
+          "is_correct": false
+        },
+        {
+          "option": "The date when the principal amount is repaid to the bondholder",
+          "is_correct": true
+        },
+        {
+          "option": "The date when the bond's interest rate changes",
+          "is_correct": false
+        },
+        {
+          "option": "The date when the bond is first issued to the market",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What does the term \"Bull Market\" refer to in finance?",
+      "options": [
+        {
+          "option": "A market with a declining trend",
+          "is_correct": false
+        },
+        {
+          "option": "A market characterized by high optimism and rising prices",
+          "is_correct": true
+        },
+        {
+          "option": "A market with stagnant or slow-moving prices",
+          "is_correct": false
+        },
+        {
+          "option": "A market dominated by bearish investors",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the role of a financial advisor in investment planning?",
+      "options": [
+        {
+          "option": "Only recommend high-risk investments",
+          "is_correct": false
+        },
+        {
+          "option": "Provide legal advice to clients",
+          "is_correct": false
+        },
+        {
+          "option": "Assist clients in making informed financial decisions",
+          "is_correct": true
+        },
+        {
+          "option": "Execute stock trades on behalf of clients",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of the SEC (U.S. Securities and Exchange Commission)?",
+      "options": [
+        {
+          "option": "Regulate banks and insurance companies",
+          "is_correct": false
+        },
+        {
+          "option": "Enforce tax laws",
+          "is_correct": false
+        },
+        {
+          "option": "Protect investors and maintain fair and efficient markets",
+          "is_correct": true
+        },
+        {
+          "option": "Control interest rates and inflation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "When considering the time value of money, what does compounding refer to?",
+      "options": [
+        {
+          "option": "The process of calculating interest on the initial principal and accumulated interest",
+          "is_correct": true
+        },
+        {
+          "option": "A decrease in the value of money over time",
+          "is_correct": false
+        },
+        {
+          "option": "Investing in short-term securities",
+          "is_correct": false
+        },
+        {
+          "option": "The total return on an investment without factoring in time",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the primary function of a stock exchange?",
+      "options": [
+        {
+          "option": "Issue government bonds",
+          "is_correct": false
+        },
+        {
+          "option": "Provide loans to individuals",
+          "is_correct": false
+        },
+        {
+          "option": "Facilitate the buying and selling of financial instruments like stocks and bonds",
+          "is_correct": true
+        },
+        {
+          "option": "Set interest rates for mortgages",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ class ListLessonsLearnVC: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        hidesBottomBarWhenPushed = true
         levelLabelLearn.backgroundColor = .gray.withAlphaComponent(0.5)
         levelLabelLearn.layer.cornerRadius = 8
         levelLabelLearn.clipsToBounds = true

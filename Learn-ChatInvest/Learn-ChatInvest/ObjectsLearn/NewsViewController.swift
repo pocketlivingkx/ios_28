@@ -60,6 +60,7 @@ extension NewsViewController: UITableViewDelegate, UITableViewDataSource {
         let stdLearn = UIStoryboard(name: "SingleArticleViewController", bundle: nil)
         let viewCoLearn = stdLearn.instantiateViewController(withIdentifier: "SingleArticleViewController") as! SingleArticleViewController
         viewCoLearn.directLearnNew = resultNews[sender.tag]
+        viewCoLearn.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(viewCoLearn, animated: true)
     }
     

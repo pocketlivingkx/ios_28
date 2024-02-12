@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What factor is crucial when determining your risk tolerance for investment?",
+      "options": [
+        {
+          "option": "Current market trends",
+          "is_correct": false
+        },
+        {
+          "option": "Individual financial goals and time horizon",
+          "is_correct": true
+        },
+        {
+          "option": "Popular investment choices",
+          "is_correct": false
+        },
+        {
+          "option": "Short-term economic indicators",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which investment type is generally considered the most conservative and low-risk?",
+      "options": [
+        {
+          "option": "Cryptocurrencies",
+          "is_correct": false
+        },
+        {
+          "option": "High-yield bonds",
+          "is_correct": false
+        },
+        {
+          "option": "Government bonds or Treasury securities",
+          "is_correct": true
+        },
+        {
+          "option": "Emerging market stocks",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does diversification contribute to a well-balanced investment portfolio?",
+      "options": [
+        {
+          "option": "It increases the likelihood of short-term gains",
+          "is_correct": false
+        },
+        {
+          "option": "It minimizes taxes on returns",
+          "is_correct": false
+        },
+        {
+          "option": "It spreads risk across different asset classes",
+          "is_correct": true
+        },
+        {
+          "option": "It ensures a fixed rate of return",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the significance of the expense ratio when selecting a mutual fund for your portfolio?",
+      "options": [
+        {
+          "option": "It determines the fund's past performance",
+          "is_correct": false
+        },
+        {
+          "option": "It represents the percentage of the fund's assets used for management fees",
+          "is_correct": true
+        },
+        {
+          "option": "It indicates the fund's risk level",
+          "is_correct": false
+        },
+        {
+          "option": "It reflects the fund's dividend yield",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does your investment time horizon influence portfolio composition?",
+      "options": [
+        {
+          "option": "It has no impact on the choice of assets",
+          "is_correct": false
+        },
+        {
+          "option": "A shorter time horizon favors high-risk, high-return investments",
+          "is_correct": false
+        },
+        {
+          "option": "A longer time horizon allows for more exposure to equities",
+          "is_correct": true
+        },
+        {
+          "option": "It only affects the timing of investment decisions, not the asset allocation.",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

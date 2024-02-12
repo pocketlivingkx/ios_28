@@ -17,27 +17,34 @@ class LearningBar: UITabBarController {
         let vc3Learning = st3Learning.instantiateViewController(withIdentifier: "NewsViewController")
         let st4Learning = UIStoryboard(name: "SetsLearnViewController", bundle: nil)
         let vc4Learning = st4Learning.instantiateViewController(withIdentifier: "SetsLearnViewController")
+        let st5Learning = UIStoryboard(name: "ExamsViewController", bundle: nil)
+        let vc5Learning = st5Learning.instantiateViewController(withIdentifier: "ExamsViewController")
         
         let nav1Learning = UINavigationController(rootViewController: vc1Learning)
         let nav2Learning = UINavigationController(rootViewController: vc2Learning)
         let nav3Learning = UINavigationController(rootViewController: vc3Learning)
         let nav4Learning = UINavigationController(rootViewController: vc4Learning)
+        let nav5Learning = UINavigationController(rootViewController: vc5Learning)
         
         nav1Learning.tabBarItem.image = UIImage(named: "Hat")
         nav2Learning.tabBarItem.image = UIImage(named: "Ask")
         nav3Learning.tabBarItem.image = UIImage(named: "Speaker")
         nav4Learning.tabBarItem.image = UIImage(named: "Customization")
+        nav5Learning.tabBarItem.image = UIImage.init(systemName: "list.bullet.clipboard")
+        
         
         nav1Learning.tabBarItem.title = "Learn"
         nav2Learning.tabBarItem.title = "Helper"
         nav3Learning.tabBarItem.title = "News"
         nav4Learning.tabBarItem.title = "Settings"
+        nav5Learning.tabBarItem.title = "Exam"
+
         
-        let navsLearning = [nav1Learning, nav2Learning, nav3Learning, nav4Learning ]
+        let navsLearning = [nav1Learning, nav5Learning, nav2Learning, nav3Learning, nav4Learning ]
         UITabBar.appearance().tintColor = UIColor.white
         navsLearning.forEach { $0.navigationBar.isHidden = true }
         
-        viewControllers = [nav1Learning, nav2Learning, nav3Learning, nav4Learning]
+        viewControllers = navsLearning
         UITabBar.appearance().backgroundColor = UIColor(red: 0.9176, green: 0.9176, blue: 0.9176, alpha: 1.0)
         UITabBar.appearance().barTintColor = UIColor(red: 0.9176, green: 0.9176, blue: 0.9176, alpha: 1.0)
         UITabBar.appearance().tintColor = UIColor.tintColor

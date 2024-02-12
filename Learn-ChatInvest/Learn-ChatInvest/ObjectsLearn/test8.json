@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What is the primary risk associated with inflation for bondholders?",
+      "options": [
+        {
+          "option": "Higher coupon payments",
+          "is_correct": false
+        },
+        {
+          "option": "Increased credit rating",
+          "is_correct": false
+        },
+        {
+          "option": "Capital gains",
+          "is_correct": false
+        },
+        {
+          "option": "Decreased purchasing power of future interest payments",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "How does a callable bond differ from a non-callable bond?",
+      "options": [
+        {
+          "option": "Callable bonds have a fixed interest rate, while non-callable bonds have a variable rate",
+          "is_correct": false
+        },
+        {
+          "option": "Callable bonds cannot be redeemed by the issuer, while non-callable bonds can be redeemed at any time",
+          "is_correct": false
+        },
+        {
+          "option": "Issuers have the option to redeem callable bonds before maturity, while non-callable bonds cannot be redeemed early",
+          "is_correct": true
+        },
+        {
+          "option": "Callable bonds have a higher face value than non-callable bonds",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the relationship between bond prices and the prevailing interest rates in the market?",
+      "options": [
+        {
+          "option": "Inverse relationship - as interest rates rise, bond prices generally fall",
+          "is_correct": true
+        },
+        {
+          "option": "Direct relationship - as interest rates rise, bond prices also rise",
+          "is_correct": false
+        },
+        {
+          "option": "No correlation - changes in interest rates do not impact bond prices",
+          "is_correct": false
+        },
+        {
+          "option": "Bond prices and interest rates move independently of each other",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the term for a bond that is sold at a price below its face value?",
+      "options": [
+        {
+          "option": "Premium bond",
+          "is_correct": false
+        },
+        {
+          "option": "Zero-coupon bond",
+          "is_correct": false
+        },
+        {
+          "option": "Par bond",
+          "is_correct": false
+        },
+        {
+          "option": "Discount bond",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "How does the yield to maturity (YTM) differ from the coupon rate of a bond?",
+      "options": [
+        {
+          "option": "YTM is the total return on a bond, while the coupon rate is the interest paid annually",
+          "is_correct": false
+        },
+        {
+          "option": "YTM is fixed, while the coupon rate may change over time",
+          "is_correct": false
+        },
+        {
+          "option": "YTM is the current market price of the bond, while the coupon rate is the face value",
+          "is_correct": false
+        },
+        {
+          "option": "YTM represents the total return if the bond is held until maturity, while the coupon rate is the fixed annual interest payment.",
+          "is_correct": true
+        }
+      ]
+    }
+  ]
+}

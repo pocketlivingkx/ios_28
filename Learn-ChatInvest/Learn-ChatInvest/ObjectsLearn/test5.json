@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What is the primary purpose of a stock exchange in the context of financial markets?",
+      "options": [
+        {
+          "option": "Provide loans to individuals",
+          "is_correct": false
+        },
+        {
+          "option": "Issue government bonds",
+          "is_correct": false
+        },
+        {
+          "option": "Facilitate the buying and selling of stocks and other financial instruments",
+          "is_correct": true
+        },
+        {
+          "option": "Set interest rates for mortgages",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What does the term 'IPO' stand for in the stock market?",
+      "options": [
+        {
+          "option": "International Portfolio Offering",
+          "is_correct": false
+        },
+        {
+          "option": "Initial Public Option",
+          "is_correct": false
+        },
+        {
+          "option": "Initial Public Offering",
+          "is_correct": true
+        },
+        {
+          "option": "Investment Portfolio Organizer",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How is the price of a stock typically determined in the stock market?",
+      "options": [
+        {
+          "option": "By the company's total assets",
+          "is_correct": false
+        },
+        {
+          "option": "By the number of employees in the company",
+          "is_correct": false
+        },
+        {
+          "option": "By the dividends paid by the company",
+          "is_correct": false
+        },
+        {
+          "option": "By the forces of supply and demand in the market",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "What does the term 'blue-chip stocks' refer to in the stock market?",
+      "options": [
+        {
+          "option": "Stocks with low market capitalization",
+          "is_correct": false
+        },
+        {
+          "option": "Stocks of well-established, financially stable companies",
+          "is_correct": true
+        },
+        {
+          "option": "Stocks with high price volatility",
+          "is_correct": false
+        },
+        {
+          "option": "Stocks of newly listed companies",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does a stock split affect existing shareholders?",
+      "options": [
+        {
+          "option": "It increases the value of each share held by existing shareholders",
+          "is_correct": false
+        },
+        {
+          "option": "It has no impact on the value of existing shares",
+          "is_correct": false
+        },
+        {
+          "option": "It increases the number of shares held by existing shareholders proportionally while reducing the price per share",
+          "is_correct": true
+        },
+        {
+          "option": "It decreases the number of shares held by existing shareholders.",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What is the primary advantage of investing in an Exchange-Traded Fund (ETF)?",
+      "options": [
+        {
+          "option": "Fixed dividend payments",
+          "is_correct": false
+        },
+        {
+          "option": "Limited liquidity",
+          "is_correct": false
+        },
+        {
+          "option": "Active management by professional fund managers",
+          "is_correct": false
+        },
+        {
+          "option": "Intraday trading flexibility on the stock exchange",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "How does the process of 'creation' and 'redemption' work in the context of ETFs?",
+      "options": [
+        {
+          "option": "It involves creating new ETFs to meet investor demand",
+          "is_correct": false
+        },
+        {
+          "option": "Authorized Participants can create or redeem ETF shares in exchange for a basket of underlying assets",
+          "is_correct": true
+        },
+        {
+          "option": "It refers to the annual distribution of dividends to ETF investors",
+          "is_correct": false
+        },
+        {
+          "option": "It is a regulatory process to eliminate poorly-performing ETFs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the typical fee structure for ETFs compared to actively managed mutual funds?",
+      "options": [
+        {
+          "option": "ETFs generally have higher expense ratios",
+          "is_correct": false
+        },
+        {
+          "option": "ETFs and actively managed mutual funds have similar fee structures",
+          "is_correct": false
+        },
+        {
+          "option": "ETFs typically have lower expense ratios",
+          "is_correct": true
+        },
+        {
+          "option": "Expense ratios are not applicable to ETFs",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What does the term 'passive investing' mean in the context of index funds and ETFs?",
+      "options": [
+        {
+          "option": "Frequent buying and selling of securities",
+          "is_correct": false
+        },
+        {
+          "option": "Actively managing a portfolio to outperform the market",
+          "is_correct": false
+        },
+        {
+          "option": "Replicating the performance of a specific market index",
+          "is_correct": true
+        },
+        {
+          "option": "Investing in high-risk assets",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does the liquidity of an ETF compare to that of a traditional mutual fund?",
+      "options": [
+        {
+          "option": "ETFs have lower liquidity due to limited trading hours",
+          "is_correct": false
+        },
+        {
+          "option": "ETFs are generally more liquid as they trade on the stock exchange throughout the day",
+          "is_correct": true
+        },
+        {
+          "option": "Traditional mutual funds have higher liquidity",
+          "is_correct": false
+        },
+        {
+          "option": "Liquidity is not a factor in either ETFs or traditional mutual funds.",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

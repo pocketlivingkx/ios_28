@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What is the role of an Emergency Fund in the context of investment planning?",
+      "options": [
+        {
+          "option": "It is a high-risk investment strategy",
+          "is_correct": false
+        },
+        {
+          "option": "It serves as a financial safety net for unexpected expenses",
+          "is_correct": true
+        },
+        {
+          "option": "It is part of a long-term investment portfolio",
+          "is_correct": false
+        },
+        {
+          "option": "It maximizes short-term returns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does the concept of 'time diversification' apply to investment decisions?",
+      "options": [
+        {
+          "option": "It suggests investing in a single asset class over a short period",
+          "is_correct": false
+        },
+        {
+          "option": "It encourages frequent buying and selling of securities",
+          "is_correct": false
+        },
+        {
+          "option": "It recognizes that long-term investments may withstand short-term market fluctuations",
+          "is_correct": true
+        },
+        {
+          "option": "It focuses on short-term gains only",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following factors is essential when assessing the liquidity of an investment?",
+      "options": [
+        {
+          "option": "Historical performance",
+          "is_correct": false
+        },
+        {
+          "option": "Expense ratio",
+          "is_correct": false
+        },
+        {
+          "option": "Potential tax benefits",
+          "is_correct": false
+        },
+        {
+          "option": "Ease of converting the investment into cash",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "In the context of risk management, what does the term 'hedging' refer to?",
+      "options": [
+        {
+          "option": "Pursuing high-risk, high-reward investments",
+          "is_correct": false
+        },
+        {
+          "option": "Diversifying across different asset classes",
+          "is_correct": false
+        },
+        {
+          "option": "Minimizing exposure to market fluctuations",
+          "is_correct": false
+        },
+        {
+          "option": "Using financial instruments to offset potential losses",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "How can dollar-cost averaging benefit an investor over time?",
+      "options": [
+        {
+          "option": "It reduces the impact of market volatility by spreading investments over time",
+          "is_correct": true
+        },
+        {
+          "option": "It guarantees a fixed rate of return on investments",
+          "is_correct": false
+        },
+        {
+          "option": "It involves buying and selling securities on the same day",
+          "is_correct": false
+        },
+        {
+          "option": "It is most effective for short-term investment strategies.",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

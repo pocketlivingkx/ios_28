@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What does the term 'dividend yield' represent in the context of stocks?",
+      "options": [
+        {
+          "option": "The total market value of all outstanding shares",
+          "is_correct": false
+        },
+        {
+          "option": "The annual percentage return on a stock investment",
+          "is_correct": false
+        },
+        {
+          "option": "The total number of shares issued by a company",
+          "is_correct": false
+        },
+        {
+          "option": "The annual dividend income relative to the current stock price",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is the significance of the P/E ratio (Price-to-Earnings ratio) when evaluating stocks?",
+      "options": [
+        {
+          "option": "It indicates the company's total assets",
+          "is_correct": false
+        },
+        {
+          "option": "It reflects the company's revenue growth",
+          "is_correct": false
+        },
+        {
+          "option": "It measures the relationship between stock price and earnings per share",
+          "is_correct": true
+        },
+        {
+          "option": "It determines the dividend payout ratio",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does a bear market differ from a bull market?",
+      "options": [
+        {
+          "option": "A bear market is characterized by rising stock prices, while a bull market sees declining prices",
+          "is_correct": false
+        },
+        {
+          "option": "A bear market is a term for a strong economy, while a bull market indicates economic downturn",
+          "is_correct": false
+        },
+        {
+          "option": "A bear market is marked by pessimism and falling stock prices, while a bull market is characterized by optimism and rising prices",
+          "is_correct": true
+        },
+        {
+          "option": "A bear market only refers to specific sectors, while a bull market is a broad market trend",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the function of a stockbroker in the stock market?",
+      "options": [
+        {
+          "option": "Issue new stocks to the market",
+          "is_correct": false
+        },
+        {
+          "option": "Set interest rates for mortgages",
+          "is_correct": false
+        },
+        {
+          "option": "Control stock prices",
+          "is_correct": false
+        },
+        {
+          "option": "Facilitate the buying and selling of stocks on behalf of investors",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is the role of the SEC (U.S. Securities and Exchange Commission) in the stock market?",
+      "options": [
+        {
+          "option": "Set stock prices",
+          "is_correct": false
+        },
+        {
+          "option": "Regulate stock exchanges",
+          "is_correct": false
+        },
+        {
+          "option": "Determine dividend payouts",
+          "is_correct": false
+        },
+        {
+          "option": "Protect investors and maintain fair and efficient markets",
+          "is_correct": true
+        }
+      ]
+    }
+  ]
+}

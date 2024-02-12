@@ -35,6 +35,20 @@
 		04767A3A2B72F270003BAD5A /* MainLauncher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04767A382B72F270003BAD5A /* MainLauncher.storyboard */; };
 		04767A3C2B72F272003BAD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04767A3B2B72F272003BAD5A /* Assets.xcassets */; };
 		04767A3F2B72F272003BAD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04767A3D2B72F272003BAD5A /* LaunchScreen.storyboard */; };
+		04B046882B7A8A310055EBFA /* ExamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B046872B7A8A310055EBFA /* ExamsViewController.swift */; };
+		04B0468A2B7A8A3C0055EBFA /* ExamsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B046892B7A8A3C0055EBFA /* ExamsViewController.storyboard */; };
+		04B0468C2B7A95770055EBFA /* TestLearningVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B0468B2B7A95770055EBFA /* TestLearningVC.storyboard */; };
+		04B0468E2B7A95850055EBFA /* TestLearningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0468D2B7A95850055EBFA /* TestLearningVC.swift */; };
+		04B046902B7A9C800055EBFA /* test1.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B0468F2B7A9C800055EBFA /* test1.json */; };
+		04B0469A2B7AA8240055EBFA /* test2.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046912B7AA8230055EBFA /* test2.json */; };
+		04B0469B2B7AA8240055EBFA /* test4.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046922B7AA8230055EBFA /* test4.json */; };
+		04B0469C2B7AA8240055EBFA /* test6.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046932B7AA8230055EBFA /* test6.json */; };
+		04B0469D2B7AA8240055EBFA /* test9.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046942B7AA8230055EBFA /* test9.json */; };
+		04B0469E2B7AA8240055EBFA /* test3.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046952B7AA8230055EBFA /* test3.json */; };
+		04B0469F2B7AA8240055EBFA /* test8.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046962B7AA8230055EBFA /* test8.json */; };
+		04B046A02B7AA8240055EBFA /* test10.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046972B7AA8240055EBFA /* test10.json */; };
+		04B046A12B7AA8240055EBFA /* test7.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046982B7AA8240055EBFA /* test7.json */; };
+		04B046A22B7AA8240055EBFA /* test5.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046992B7AA8240055EBFA /* test5.json */; };
 		04CE20542B7699100047607E /* FullLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE20532B7699100047607E /* FullLessonViewController.swift */; };
 		04CE20562B76991B0047607E /* FullLessonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE20552B76991B0047607E /* FullLessonViewController.storyboard */; };
 		04F25EB92B73ADB0008CBE70 /* LearningHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */; };
@@ -78,6 +92,20 @@
 		04767A3B2B72F272003BAD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04767A3E2B72F272003BAD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04767A402B72F272003BAD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B046872B7A8A310055EBFA /* ExamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsViewController.swift; sourceTree = "<group>"; };
+		04B046892B7A8A3C0055EBFA /* ExamsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExamsViewController.storyboard; sourceTree = "<group>"; };
+		04B0468B2B7A95770055EBFA /* TestLearningVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestLearningVC.storyboard; sourceTree = "<group>"; };
+		04B0468D2B7A95850055EBFA /* TestLearningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLearningVC.swift; sourceTree = "<group>"; };
+		04B0468F2B7A9C800055EBFA /* test1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test1.json; sourceTree = "<group>"; };
+		04B046912B7AA8230055EBFA /* test2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test2.json; sourceTree = "<group>"; };
+		04B046922B7AA8230055EBFA /* test4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test4.json; sourceTree = "<group>"; };
+		04B046932B7AA8230055EBFA /* test6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test6.json; sourceTree = "<group>"; };
+		04B046942B7AA8230055EBFA /* test9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test9.json; sourceTree = "<group>"; };
+		04B046952B7AA8230055EBFA /* test3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test3.json; sourceTree = "<group>"; };
+		04B046962B7AA8230055EBFA /* test8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test8.json; sourceTree = "<group>"; };
+		04B046972B7AA8240055EBFA /* test10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test10.json; sourceTree = "<group>"; };
+		04B046982B7AA8240055EBFA /* test7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test7.json; sourceTree = "<group>"; };
+		04B046992B7AA8240055EBFA /* test5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test5.json; sourceTree = "<group>"; };
 		04CE20532B7699100047607E /* FullLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullLessonViewController.swift; sourceTree = "<group>"; };
 		04CE20552B76991B0047607E /* FullLessonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FullLessonViewController.storyboard; sourceTree = "<group>"; };
 		04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningHowToViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +201,20 @@
 				040C1BA62B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib */,
 				04CE20532B7699100047607E /* FullLessonViewController.swift */,
 				04CE20552B76991B0047607E /* FullLessonViewController.storyboard */,
+				04B046872B7A8A310055EBFA /* ExamsViewController.swift */,
+				04B046892B7A8A3C0055EBFA /* ExamsViewController.storyboard */,
+				04B0468B2B7A95770055EBFA /* TestLearningVC.storyboard */,
+				04B0468D2B7A95850055EBFA /* TestLearningVC.swift */,
+				04B046912B7AA8230055EBFA /* test2.json */,
+				04B046952B7AA8230055EBFA /* test3.json */,
+				04B046922B7AA8230055EBFA /* test4.json */,
+				04B046992B7AA8240055EBFA /* test5.json */,
+				04B046932B7AA8230055EBFA /* test6.json */,
+				04B046982B7AA8240055EBFA /* test7.json */,
+				04B046962B7AA8230055EBFA /* test8.json */,
+				04B046942B7AA8230055EBFA /* test9.json */,
+				04B046972B7AA8240055EBFA /* test10.json */,
+				04B0468F2B7A9C800055EBFA /* test1.json */,
 			);
 			path = ObjectsLearn;
 			sourceTree = "<group>";
@@ -247,24 +289,36 @@
 			files = (
 				040C1BA82B767BBD005FA2A7 /* LessonWithTimeLessonCell.xib in Resources */,
 				04CE20562B76991B0047607E /* FullLessonViewController.storyboard in Resources */,
+				04B0468A2B7A8A3C0055EBFA /* ExamsViewController.storyboard in Resources */,
 				040C1B9E2B76254A005FA2A7 /* LessonCell.xib in Resources */,
 				04767A3F2B72F272003BAD5A /* LaunchScreen.storyboard in Resources */,
 				041ACD302B758FB3008EBBE8 /* SetsLearnViewController.storyboard in Resources */,
+				04B046902B7A9C800055EBFA /* test1.json in Resources */,
 				040C1B9A2B760B3E005FA2A7 /* SingleArticleViewController.storyboard in Resources */,
+				04B0469B2B7AA8240055EBFA /* test4.json in Resources */,
+				04B046A22B7AA8240055EBFA /* test5.json in Resources */,
+				04B046A12B7AA8240055EBFA /* test7.json in Resources */,
 				041ACD2E2B758F92008EBBE8 /* NewsViewController.storyboard in Resources */,
 				04F25EBD2B73B591008CBE70 /* Inter-Bold.ttf in Resources */,
+				04B0469E2B7AA8240055EBFA /* test3.json in Resources */,
 				04F25EBB2B73ADC2008CBE70 /* LearningHowToViewController.storyboard in Resources */,
+				04B046A02B7AA8240055EBFA /* test10.json in Resources */,
 				04767A3C2B72F272003BAD5A /* Assets.xcassets in Resources */,
 				04F25EC32B73B7A2008CBE70 /* learnlearn.json in Resources */,
 				04F25ECB2B742447008CBE70 /* TabViewTrade.xib in Resources */,
 				04F25EC12B73B5A5008CBE70 /* Inter-Medium.ttf in Resources */,
 				041ACD2C2B758F3F008EBBE8 /* AILernerVC.storyboard in Resources */,
+				04B0469F2B7AA8240055EBFA /* test8.json in Resources */,
 				04F25EBF2B73B59C008CBE70 /* Inter-Regular.ttf in Resources */,
 				040C1BA42B766385005FA2A7 /* ListLessonsLearnVC.storyboard in Resources */,
+				04B0469A2B7AA8240055EBFA /* test2.json in Resources */,
 				040C1BA02B762A13005FA2A7 /* LessonsLearn.json in Resources */,
 				041ACD342B759A38008EBBE8 /* NewsFeedCell.xib in Resources */,
 				041ACD2A2B758E81008EBBE8 /* LearnerViewController.storyboard in Resources */,
+				04B0469D2B7AA8240055EBFA /* test9.json in Resources */,
 				04767A3A2B72F270003BAD5A /* MainLauncher.storyboard in Resources */,
+				04B0468C2B7A95770055EBFA /* TestLearningVC.storyboard in Resources */,
+				04B0469C2B7AA8240055EBFA /* test6.json in Resources */,
 				04F25EC72B740E0B008CBE70 /* CustomBarLearnViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B0468E2B7A95850055EBFA /* TestLearningVC.swift in Sources */,
 				04CE20542B7699100047607E /* FullLessonViewController.swift in Sources */,
 				04F25EB92B73ADB0008CBE70 /* LearningHowToViewController.swift in Sources */,
 				04F25ECD2B743233008CBE70 /* AILernerVC.swift in Sources */,
@@ -285,6 +340,7 @@
 				04767A372B72F270003BAD5A /* MainLauncher.swift in Sources */,
 				041ACD1D2B75735E008EBBE8 /* LearnerViewController.swift in Sources */,
 				040C1B982B760B2F005FA2A7 /* SingleArticleViewController.swift in Sources */,
+				04B046882B7A8A310055EBFA /* ExamsViewController.swift in Sources */,
 				040C1B9D2B76254A005FA2A7 /* LessonCell.swift in Sources */,
 				04767A332B72F270003BAD5A /* AppDelegate.swift in Sources */,
 				04F25EC92B74240B008CBE70 /* TabViewTrade.swift in Sources */,
@@ -370,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -427,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -442,15 +498,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = HGGBGS2J86;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67A656CXMY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Learn-ChatInvest/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Finance Vantage with AI Bot";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainLauncher;
@@ -461,13 +513,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.victormorozov.financevantage;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi.learninvest.Learn-ChatInvest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = comvictormorozovfinancevantage;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -479,15 +528,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = HGGBGS2J86;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67A656CXMY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Learn-ChatInvest/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Finance Vantage with AI Bot";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainLauncher;
@@ -498,13 +543,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.victormorozov.financevantage;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi.learninvest.Learn-ChatInvest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = comvictormorozovfinancevantage;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "question": "What does the term 'ETF' stand for in the context of investment funds?",
+      "options": [
+        {
+          "option": "Equity Trading Fund",
+          "is_correct": false
+        },
+        {
+          "option": "Exchange-Traded Fund",
+          "is_correct": true
+        },
+        {
+          "option": "Economic Transfer Fund",
+          "is_correct": false
+        },
+        {
+          "option": "Emerging Technology Fund",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is the primary advantage of investing in a mutual fund?",
+      "options": [
+        {
+          "option": "Higher risk due to concentrated investments",
+          "is_correct": false
+        },
+        {
+          "option": "Limited diversification across different asset classes",
+          "is_correct": false
+        },
+        {
+          "option": "Professional management and diversification",
+          "is_correct": true
+        },
+        {
+          "option": "Guaranteed fixed returns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How does the process of 'net asset value' (NAV) calculation work for mutual funds?",
+      "options": [
+        {
+          "option": "It determines the number of shares issued by the fund",
+          "is_correct": false
+        },
+        {
+          "option": "It measures the fund's market capitalization",
+          "is_correct": false
+        },
+        {
+          "option": "It reflects the total assets minus liabilities, divided by the number of outstanding shares",
+          "is_correct": true
+        },
+        {
+          "option": "It represents the total market value of the fund's investments",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is a key characteristic of an actively managed mutual fund?",
+      "options": [
+        {
+          "option": "It aims to replicate the performance of a specific market index",
+          "is_correct": false
+        },
+        {
+          "option": "Professional fund managers make investment decisions to outperform the market",
+          "is_correct": true
+        },
+        {
+          "option": "It has a fixed number of shares issued",
+          "is_correct": false
+        },
+        {
+          "option": "It trades on the stock exchange throughout the day",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "How do index funds differ from actively managed funds?",
+      "options": [
+        {
+          "option": "Index funds have higher expense ratios",
+          "is_correct": false
+        },
+        {
+          "option": "Actively managed funds aim to replicate the performance of a specific market index",
+          "is_correct": false
+        },
+        {
+          "option": "Index funds aim to track the performance of a specific market index passively",
+          "is_correct": true
+        },
+        {
+          "option": "Actively managed funds have lower diversification.",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

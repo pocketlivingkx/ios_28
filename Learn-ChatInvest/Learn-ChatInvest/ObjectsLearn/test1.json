@@ -1,0 +1,110 @@
+{
+  "questions": [
+    {
+      "question": "What is the definition of ROI (Return on Investment)?",
+      "options": [
+        {
+          "option": "Total investment volume",
+          "is_correct": false
+        },
+        {
+          "option": "Income from investments as a percentage of the initial amount",
+          "is_correct": true
+        },
+        {
+          "option": "Market capitalization",
+          "is_correct": false
+        },
+        {
+          "option": "Sum of all assets",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following instruments is considered the least risky?",
+      "options": [
+        {
+          "option": "Stocks of high-tech companies",
+          "is_correct": false
+        },
+        {
+          "option": "Bonds with low credit rating",
+          "is_correct": false
+        },
+        {
+          "option": "Currency market",
+          "is_correct": false
+        },
+        {
+          "option": "Government bonds",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "question": "What is portfolio diversification in investments?",
+      "options": [
+        {
+          "option": "Investing in only one industry",
+          "is_correct": false
+        },
+        {
+          "option": "Distributing investments among different assets",
+          "is_correct": true
+        },
+        {
+          "option": "Investing only in foreign stocks",
+          "is_correct": false
+        },
+        {
+          "option": "Purchasing a single type of security",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "Which index is most commonly used to track the performance of the U.S. stock market?",
+      "options": [
+        {
+          "option": "FTSE 100",
+          "is_correct": false
+        },
+        {
+          "option": "Nikkei 225",
+          "is_correct": false
+        },
+        {
+          "option": "Dow Jones Industrial Average",
+          "is_correct": true
+        },
+        {
+          "option": "Hang Seng Index",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question": "What is an 'Exchange-Traded Fund' (ETF)?",
+      "options": [
+        {
+          "option": "Individual company stock",
+          "is_correct": false
+        },
+        {
+          "option": "Investment fund traded on the stock exchange",
+          "is_correct": true
+        },
+        {
+          "option": "Fixed-income bond",
+          "is_correct": false
+        },
+        {
+          "option": "Bank deposit with a fixed interest rate",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}
+

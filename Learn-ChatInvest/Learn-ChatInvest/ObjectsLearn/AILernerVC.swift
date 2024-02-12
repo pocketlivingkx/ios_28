@@ -10,7 +10,7 @@ class AILernerVC: UIViewController {
     @IBOutlet weak var chatTableLearn: UITableView!
     @IBOutlet weak var fieldForQuestionTF: UITextField!
     var messagesArray: [MessageLetter] = []
-    let openAI = OpenAI(apiToken: "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")
+    let openAI = OpenAI(apiToken: "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")
 
     
     @IBOutlet weak var bb: UIButton!

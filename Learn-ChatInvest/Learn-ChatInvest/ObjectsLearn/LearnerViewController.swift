@@ -1333,7 +1333,7 @@ REITs offer a compelling avenue for investors to participate in the real estate 
             viewCoLearn.level = levelsEducation[2]
         }
         
-        
+        viewCoLearn.hidesBottomBarWhenPushed = true
         
         self.navigationController?.pushViewController(viewCoLearn, animated: true)
     }
