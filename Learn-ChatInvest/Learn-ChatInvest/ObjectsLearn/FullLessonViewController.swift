@@ -26,6 +26,7 @@ currentIndexLearn = index
         lessonMainTitle.text = "Lesson \(currentIndexLearn + 1)"
         lessonTitle.text = currentLesson.title
         lessonText.text = currentLesson.text
+        lessonText.backgroundColor = .white
         sheeter.isUserInteractionEnabled = false
         sheeter.numberOfPages = learnTopic.lessons.count
         sheeter.currentPage = currentIndexLearn

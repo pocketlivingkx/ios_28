@@ -27,7 +27,8 @@ class ListLessonsLearnVC: UIViewController, UITableViewDelegate, UITableViewData
         topicTitleLearn.text = learnTopic.name
         logoImageLearn.image = UIImage(named: imName)
         descrLabelLearn.text = learnTopic.description
-        
+        listLearnTableView.separatorColor = .clear
+        listLearnTableView.separatorStyle = .none
         listLearnTableView.showsVerticalScrollIndicator = false
         listLearnTableView.dataSource = self
         listLearnTableView.delegate = self
