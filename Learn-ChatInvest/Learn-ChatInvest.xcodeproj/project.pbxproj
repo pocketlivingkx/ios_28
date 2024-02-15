@@ -29,6 +29,8 @@
 		041ACD302B758FB3008EBBE8 /* SetsLearnViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD2F2B758FB3008EBBE8 /* SetsLearnViewController.storyboard */; };
 		041ACD332B759A38008EBBE8 /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ACD312B759A38008EBBE8 /* NewsFeedCell.swift */; };
 		041ACD342B759A38008EBBE8 /* NewsFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041ACD322B759A38008EBBE8 /* NewsFeedCell.xib */; };
+		046AEF232B7E989A003F3182 /* ConverterLearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AEF222B7E989A003F3182 /* ConverterLearningViewController.swift */; };
+		046AEF252B7E98A8003F3182 /* ConverterLearningViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AEF242B7E98A8003F3182 /* ConverterLearningViewController.storyboard */; };
 		04767A332B72F270003BAD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04767A322B72F270003BAD5A /* AppDelegate.swift */; };
 		04767A352B72F270003BAD5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04767A342B72F270003BAD5A /* SceneDelegate.swift */; };
 		04767A372B72F270003BAD5A /* MainLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04767A362B72F270003BAD5A /* MainLauncher.swift */; };
@@ -84,6 +86,8 @@
 		041ACD2F2B758FB3008EBBE8 /* SetsLearnViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetsLearnViewController.storyboard; sourceTree = "<group>"; };
 		041ACD312B759A38008EBBE8 /* NewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
 		041ACD322B759A38008EBBE8 /* NewsFeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsFeedCell.xib; sourceTree = "<group>"; };
+		046AEF222B7E989A003F3182 /* ConverterLearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterLearningViewController.swift; sourceTree = "<group>"; };
+		046AEF242B7E98A8003F3182 /* ConverterLearningViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConverterLearningViewController.storyboard; sourceTree = "<group>"; };
 		04767A2F2B72F270003BAD5A /* Learn-ChatInvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn-ChatInvest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04767A322B72F270003BAD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04767A342B72F270003BAD5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 				04B046942B7AA8230055EBFA /* test9.json */,
 				04B046972B7AA8240055EBFA /* test10.json */,
 				04B0468F2B7A9C800055EBFA /* test1.json */,
+				046AEF222B7E989A003F3182 /* ConverterLearningViewController.swift */,
+				046AEF242B7E98A8003F3182 /* ConverterLearningViewController.storyboard */,
 			);
 			path = ObjectsLearn;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				04CE20562B76991B0047607E /* FullLessonViewController.storyboard in Resources */,
 				04B0468A2B7A8A3C0055EBFA /* ExamsViewController.storyboard in Resources */,
 				040C1B9E2B76254A005FA2A7 /* LessonCell.xib in Resources */,
+				046AEF252B7E98A8003F3182 /* ConverterLearningViewController.storyboard in Resources */,
 				04767A3F2B72F272003BAD5A /* LaunchScreen.storyboard in Resources */,
 				041ACD302B758FB3008EBBE8 /* SetsLearnViewController.storyboard in Resources */,
 				04B046902B7A9C800055EBFA /* test1.json in Resources */,
@@ -337,6 +344,7 @@
 				041ACD332B759A38008EBBE8 /* NewsFeedCell.swift in Sources */,
 				041ACD1B2B757055008EBBE8 /* SetsLearnViewController.swift in Sources */,
 				040C1BA22B766379005FA2A7 /* ListLessonsLearnVC.swift in Sources */,
+				046AEF232B7E989A003F3182 /* ConverterLearningViewController.swift in Sources */,
 				04767A372B72F270003BAD5A /* MainLauncher.swift in Sources */,
 				041ACD1D2B75735E008EBBE8 /* LearnerViewController.swift in Sources */,
 				040C1B982B760B2F005FA2A7 /* SingleArticleViewController.swift in Sources */,

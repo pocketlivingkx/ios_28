@@ -51,6 +51,13 @@ class AILernerVC: UIViewController {
         }
     }
     
+    @IBAction func toSetsLearning(_ sender: Any) {
+        let std = UIStoryboard(name: "SetsLearnViewController", bundle: nil)
+        let viewCo = std.instantiateViewController(withIdentifier: "SetsLearnViewController") as! SetsLearnViewController
+
+        present(viewCo, animated: true)
+    }
+    
     private func runDialog() {
         openAI.chats(query: .init(model: .gpt3_5Turbo,  messages: self.messagesArray.map({Chat(role: .user, content: $0.content)}))) { result in
             

@@ -1279,6 +1279,12 @@ REITs offer a compelling avenue for investors to participate in the real estate 
     
     @IBOutlet weak var tableForTopicks: UITableView!
     
+    @IBAction func toSetsLearning(_ sender: Any) {
+        let std = UIStoryboard(name: "SetsLearnViewController", bundle: nil)
+        let viewCo = std.instantiateViewController(withIdentifier: "SetsLearnViewController") as! SetsLearnViewController
+
+        present(viewCo, animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40t-f4-3EC">
-                                        <rect key="frame" x="16" y="62.666666666666657" width="200" height="28"/>
+                                        <rect key="frame" x="16" y="63" width="200" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="EVw-az-I5o"/>
                                             <constraint firstAttribute="height" constant="28" id="TWb-Cc-S0h"/>
@@ -34,11 +34,21 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czN-co-Ntc">
+                                        <rect key="frame" x="324" y="58" width="49" height="38"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="Customization"/>
+                                        <connections>
+                                            <action selector="toSetsLearning:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="O2V-SY-n4c"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="czN-co-Ntc" secondAttribute="trailing" constant="20" id="6cv-fW-0mk"/>
                                     <constraint firstAttribute="height" constant="108" id="D4M-ho-ZGb"/>
-                                    <constraint firstAttribute="bottom" secondItem="40t-f4-3EC" secondAttribute="bottom" constant="17.5" id="LIF-Je-6By"/>
+                                    <constraint firstItem="czN-co-Ntc" firstAttribute="centerY" secondItem="40t-f4-3EC" secondAttribute="centerY" id="Drv-zZ-Lad"/>
+                                    <constraint firstAttribute="bottom" secondItem="40t-f4-3EC" secondAttribute="bottom" constant="17" id="LIF-Je-6By"/>
                                     <constraint firstItem="40t-f4-3EC" firstAttribute="leading" secondItem="KOt-Yn-roT" secondAttribute="leading" constant="16" id="UYu-jU-Ltb"/>
                                 </constraints>
                             </view>
@@ -69,4 +79,7 @@
             <point key="canvasLocation" x="28" y="4"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Customization" width="24.333333969116211" height="24"/>
+    </resources>
 </document>

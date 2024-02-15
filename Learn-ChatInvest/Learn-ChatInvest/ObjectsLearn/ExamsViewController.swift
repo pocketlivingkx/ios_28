@@ -53,6 +53,14 @@ class ExamsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         showAlert()
     }
     
+    @IBAction func toSetsLearning(_ sender: Any) {
+        let std = UIStoryboard(name: "SetsLearnViewController", bundle: nil)
+        let viewCo = std.instantiateViewController(withIdentifier: "SetsLearnViewController") as! SetsLearnViewController
+
+        present(viewCo, animated: true)
+    }
+    
+    
     func showAlert() {
         let alertController = UIAlertController(title: "Choose Test", message: nil, preferredStyle: .alert)
 

@@ -37,9 +37,19 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLi-3D-tNX">
+                                        <rect key="frame" x="324" y="57.666666666666657" width="49" height="38"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="Customization"/>
+                                        <connections>
+                                            <action selector="toSetsLearning:" destination="36K-vr-2sh" eventType="touchUpInside" id="z1I-u5-jAK"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="mLi-3D-tNX" firstAttribute="centerY" secondItem="zAn-Yb-Nf9" secondAttribute="centerY" id="4hN-cb-unU"/>
+                                    <constraint firstAttribute="trailing" secondItem="mLi-3D-tNX" secondAttribute="trailing" constant="20" id="Juh-Lf-xnh"/>
                                     <constraint firstAttribute="bottom" secondItem="zAn-Yb-Nf9" secondAttribute="bottom" constant="17.5" id="Mgi-5n-YcT"/>
                                     <constraint firstItem="zAn-Yb-Nf9" firstAttribute="leading" secondItem="sv6-Fm-KCx" secondAttribute="leading" constant="16" id="aHD-6p-e0i"/>
                                     <constraint firstAttribute="height" constant="108" id="pOQ-OU-70m"/>
@@ -109,5 +119,6 @@
     </scenes>
     <resources>
         <image name="22-send" width="52" height="52"/>
+        <image name="Customization" width="24.333333969116211" height="24"/>
     </resources>
 </document>

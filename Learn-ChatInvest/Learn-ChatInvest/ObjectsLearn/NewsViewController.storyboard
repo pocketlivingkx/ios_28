@@ -34,10 +34,20 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axj-yd-Kae">
+                                        <rect key="frame" x="324" y="57.666666666666657" width="49" height="38"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="Customization"/>
+                                        <connections>
+                                            <action selector="toSetsLearning:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ECh-kB-bJN"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="axj-yd-Kae" firstAttribute="centerY" secondItem="rev-kM-atv" secondAttribute="centerY" id="4r3-TW-Apg"/>
                                     <constraint firstAttribute="height" constant="108" id="7IT-mU-6Mc"/>
+                                    <constraint firstAttribute="trailing" secondItem="axj-yd-Kae" secondAttribute="trailing" constant="20" id="Y5n-pa-5dQ"/>
                                     <constraint firstAttribute="bottom" secondItem="rev-kM-atv" secondAttribute="bottom" constant="17.5" id="gfC-EI-q32"/>
                                     <constraint firstItem="rev-kM-atv" firstAttribute="leading" secondItem="Rth-Cv-i0H" secondAttribute="leading" constant="16" id="prx-47-Hel"/>
                                 </constraints>
@@ -68,4 +78,7 @@
             <point key="canvasLocation" x="28" y="4"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Customization" width="24.333333969116211" height="24"/>
+    </resources>
 </document>

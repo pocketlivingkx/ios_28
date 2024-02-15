@@ -40,6 +40,13 @@ class NewsViewController: UIViewController {
     }
     
     var newIndex: Int = 0
+    
+    @IBAction func toSetsLearning(_ sender: Any) {
+        let std = UIStoryboard(name: "SetsLearnViewController", bundle: nil)
+        let viewCo = std.instantiateViewController(withIdentifier: "SetsLearnViewController") as! SetsLearnViewController
+
+        present(viewCo, animated: true)
+    }
 
 }
 

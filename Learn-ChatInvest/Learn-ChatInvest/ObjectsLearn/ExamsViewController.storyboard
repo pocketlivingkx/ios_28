@@ -34,11 +34,21 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOL-au-Y3a">
+                                        <rect key="frame" x="324" y="57.666666666666657" width="49" height="38"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="Customization"/>
+                                        <connections>
+                                            <action selector="toSetsLearning:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BDt-OG-plH"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="AOL-au-Y3a" secondAttribute="trailing" constant="20" id="3Sy-11-XMA"/>
                                     <constraint firstAttribute="height" constant="108" id="IF8-f5-BZN"/>
                                     <constraint firstAttribute="bottom" secondItem="hau-jY-rmt" secondAttribute="bottom" constant="17.5" id="mDb-lL-FEp"/>
+                                    <constraint firstItem="AOL-au-Y3a" firstAttribute="centerY" secondItem="hau-jY-rmt" secondAttribute="centerY" id="ppF-J9-6hb"/>
                                     <constraint firstItem="hau-jY-rmt" firstAttribute="leading" secondItem="Hkt-WU-rEm" secondAttribute="leading" constant="16" id="xXb-ja-VnD"/>
                                 </constraints>
                             </view>
@@ -68,4 +78,7 @@
             <point key="canvasLocation" x="28" y="4"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Customization" width="24.333333969116211" height="24"/>
+    </resources>
 </document>

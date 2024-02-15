@@ -284,8 +284,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "runDialog()"
             landmarkType = "7">
             <Locations>
@@ -332,8 +332,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "runDialog()"
             landmarkType = "7">
             <Locations>
@@ -444,8 +444,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "sendQuestionToServerLearn(_:)"
             landmarkType = "7">
             <Locations>
@@ -602,8 +602,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/NewsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Locations>
