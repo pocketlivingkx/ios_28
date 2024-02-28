@@ -157,8 +157,8 @@
             filePath = "Learn-ChatInvest/MainLauncher.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -284,8 +284,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "runDialog()"
             landmarkType = "7">
             <Locations>
@@ -319,6 +319,21 @@
                   endingLineNumber = "64"
                   offsetFromSymbolStart = "263">
                </Location>
+               <Location
+                  uuid = "D78F17CF-363B-44EE-B5FD-851AAC0EE43D - 2f1dea7f30800a46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #2 (Swift.Result&lt;OpenAI.ChatResult, Swift.Error&gt;) -&gt; () in Learn_ChatInvest.AILernerVC.runDialog() -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "263">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -332,8 +347,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "runDialog()"
             landmarkType = "7">
             <Locations>
@@ -367,6 +382,21 @@
                   endingLineNumber = "60"
                   offsetFromSymbolStart = "1251">
                </Location>
+               <Location
+                  uuid = "BB0FE282-A197-4117-A1C5-AD2EB3FE5095 - fd03c2fa02ba8a3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Result&lt;OpenAI.ChatResult, Swift.Error&gt;) -&gt; () in Learn_ChatInvest.AILernerVC.runDialog() -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1251">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -380,8 +410,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "keyboardWill(notification:)"
             landmarkType = "7">
             <Locations>
@@ -415,6 +445,21 @@
                   endingLineNumber = "37"
                   offsetFromSymbolStart = "1012">
                </Location>
+               <Location
+                  uuid = "8975F6BA-C1A6-4C3B-9C2E-0537D8097DC5 - 4dc4a36be80fb9fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.AILernerVC.keyboardWill(notification: Foundation.Notification) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1012">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -444,8 +489,8 @@
             filePath = "Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "sendQuestionToServerLearn(_:)"
             landmarkType = "7">
             <Locations>
@@ -509,6 +554,36 @@
                   endingLineNumber = "77"
                   offsetFromSymbolStart = "435">
                </Location>
+               <Location
+                  uuid = "D373302D-E5D2-4D55-B288-21C9F81C1030 - d48a8c2552bc32ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.AILernerVC.sendQuestionToServerLearn(Any) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "363">
+               </Location>
+               <Location
+                  uuid = "D373302D-E5D2-4D55-B288-21C9F81C1030 - d48a8c2552bc32ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.AILernerVC.sendQuestionToServerLearn(Any) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/AILernerVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "435">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -526,54 +601,6 @@
             endingLineNumber = "13"
             landmarkName = "AILernerVC"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6D9FEFB1-2929-4ACA-BA65-2F746D210438"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Learn-ChatInvest/MainLauncher.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6D9FEFB1-2929-4ACA-BA65-2F746D210438 - ac4fa4b9443c16d5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Learn_ChatInvest.MainLauncher.viewDidLoad() -&gt; ()"
-                  moduleName = "Learn-ChatInvest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/MainLauncher.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "627">
-               </Location>
-               <Location
-                  uuid = "6D9FEFB1-2929-4ACA-BA65-2F746D210438 - ac4fa4b9443c1659"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Learn_ChatInvest.MainLauncher.viewDidLoad() -&gt; ()"
-                  moduleName = "Learn-ChatInvest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/MainLauncher.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "627">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -667,6 +694,21 @@
                   endingLineNumber = "53"
                   offsetFromSymbolStart = "475">
                </Location>
+               <Location
+                  uuid = "A4035D6E-C556-49D8-82AF-4CA4986FB36E - 36cfdb27e77f7175"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.NewsViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "475">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -746,6 +788,197 @@
                   startingLineNumber = "55"
                   endingLineNumber = "55"
                   offsetFromSymbolStart = "3126">
+               </Location>
+               <Location
+                  uuid = "477DBF64-CE96-4486-A30C-AEAF6B269BE8 - eb7f4f82e0911f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.TestLearningVC.viewDidLoad() -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/TestLearningVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "3893">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "385B27BB-150C-445B-A7AA-FF4FE0DAC3B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn-ChatInvest/ObjectsLearn/PositionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tabBarController(_:didSelect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "385B27BB-150C-445B-A7AA-FF4FE0DAC3B6 - fa8a09ab2c218953"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.PositionViewController.tabBarController(_: __C.UITabBarController, didSelect: __C.UIViewController) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/PositionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "385B27BB-150C-445B-A7AA-FF4FE0DAC3B6 - fa8a09ab2c218972"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.PositionViewController.tabBarController(_: __C.UITabBarController, didSelect: __C.UIViewController) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/PositionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD0E9ED0-26F9-4666-A415-E9C5F54E2EFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn-ChatInvest/ObjectsLearn/PositionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "runCheckInet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56EC9E1B-D0DC-43D2-AF77-1F518E68EC07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn-ChatInvest/ObjectsLearn/PositionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "runCheckInet()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64858A6B-E08B-4B3D-9C5D-A6FD224B67A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn-ChatInvest/ObjectsLearn/LearningBar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "updateTabBarAppearance(selectedIndex:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64858A6B-E08B-4B3D-9C5D-A6FD224B67A5 - 144d09acb23f9564"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.LearningBar.updateTabBarAppearance(selectedIndex: Swift.Int) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/LearningBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "115">
+               </Location>
+               <Location
+                  uuid = "64858A6B-E08B-4B3D-9C5D-A6FD224B67A5 - 144d09acb23f9564"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.LearningBar.updateTabBarAppearance(selectedIndex: Swift.Int) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/LearningBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F897E9B-2CEA-4731-91AF-E587E15C6959"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Learn-ChatInvest/ObjectsLearn/LearningBar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "updateTabBarAppearance(selectedIndex:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F897E9B-2CEA-4731-91AF-E587E15C6959 - 144d09acb23f95c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.LearningBar.updateTabBarAppearance(selectedIndex: Swift.Int) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/LearningBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "386">
+               </Location>
+               <Location
+                  uuid = "0F897E9B-2CEA-4731-91AF-E587E15C6959 - 144d09acb23f9293"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Learn_ChatInvest.LearningBar.updateTabBarAppearance(selectedIndex: Swift.Int) -&gt; ()"
+                  moduleName = "Learn-ChatInvest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Shabashki/Learn-ChatInvest/Learn-ChatInvest/Learn-ChatInvest/ObjectsLearn/LearningBar.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "318">
                </Location>
             </Locations>
          </BreakpointContent>

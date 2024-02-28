@@ -49,7 +49,7 @@ class ConverterLearningViewController: UIViewController, UIPickerViewDelegate, U
         currencyPicker.isHidden = true
         currencyPicker.delegate = self
         currencyPicker.dataSource = self
-        currencyPicker.backgroundColor = UIColor.darkGray
+        currencyPicker.backgroundColor = UIColor.lightGray
 
         
     }

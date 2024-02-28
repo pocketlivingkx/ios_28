@@ -30,6 +30,8 @@ class AILernerVC: UIViewController {
         chatTableLearn.delegate = self
         chatTableLearn.dataSource = self
         runDialog()
+        fieldForQuestionTF.attributedPlaceholder = NSAttributedString(string: "Write your question...", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+
     }
     
     @objc func keyboardWill(notification: Notification) {

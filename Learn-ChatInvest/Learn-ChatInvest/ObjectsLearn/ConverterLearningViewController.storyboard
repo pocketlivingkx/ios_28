@@ -49,7 +49,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="OJD-Xw-8eE" secondAttribute="bottom" constant="17" id="6Dv-Ec-f9y"/>
                                     <constraint firstItem="O43-Od-bMW" firstAttribute="centerY" secondItem="OJD-Xw-8eE" secondAttribute="centerY" id="7ru-Nl-YJi"/>
@@ -73,7 +73,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0f-z3-UQv">
                                         <rect key="frame" x="281" y="0.0" width="72" height="60"/>
-                                        <color key="backgroundColor" red="0.090214900670000001" green="0.094022296369999994" blue="0.10196215660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.0049976697189999999" green="0.22756215930000001" blue="0.24323850869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="72" id="GJ8-hb-Ym9"/>
                                         </constraints>
@@ -104,7 +104,7 @@
                                     <constraint firstAttribute="width" constant="200" id="fk7-mq-ShH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
-                                <color key="textColor" red="0.113744162" green="0.1175521836" blue="0.12549155949999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currency descripion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkK-BU-pdp">
@@ -114,7 +114,7 @@
                                     <constraint firstAttribute="height" constant="16" id="xRG-dO-g3Y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="13"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xy9-1o-pms">
@@ -129,7 +129,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHX-cF-YNq">
                                         <rect key="frame" x="281" y="0.0" width="72" height="60"/>
-                                        <color key="backgroundColor" red="0.090214900670000001" green="0.094022296369999994" blue="0.10196215660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.0049976697189999999" green="0.22756215930000001" blue="0.24323850869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="72" id="nQ4-iH-jA8"/>
                                         </constraints>
@@ -158,7 +158,7 @@
                                     <constraint firstAttribute="height" constant="24" id="vXu-nD-Mtq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
-                                <color key="textColor" red="0.113744162" green="0.1175521836" blue="0.12549155949999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currency descripion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDY-03-VVn">
@@ -168,7 +168,7 @@
                                     <constraint firstAttribute="width" constant="250" id="rsu-5D-2X8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="13"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkQ-6m-Qcl">
@@ -177,17 +177,17 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="KJj-DT-WTZ"/>
                                 </constraints>
-                                <mutableString key="text">Tap Button 1 to select the "From Currency".
+                                <string key="text">Tap Button 1 to select the "From Currency".
 Tap Button 2 to select the "To Currency".
 Set the amount of "Currency 1" that you want to exchange. Ensure a stable internet connection.
-Tap the "Exchange" button to proceed with the currency exchange transaction.</mutableString>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+Tap the "Exchange" button to proceed with the currency exchange transaction.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7o-hg-4UQ">
                                 <rect key="frame" x="20" y="746" width="353" height="55"/>
-                                <color key="backgroundColor" red="0.113744162" green="0.1175521836" blue="0.12549155949999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.0049976697189999999" green="0.22756215930000001" blue="0.24323850869999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Ta5-pT-DEK"/>
                                 </constraints>
@@ -219,7 +219,7 @@ Tap the "Exchange" button to proceed with the currency exchange transaction.</mu
                             </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.91764706370000004" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.1132849678" green="0.1235398427" blue="0.12363819030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="z8j-Jr-79J" firstAttribute="top" secondItem="HZ7-dL-JI6" secondAttribute="bottom" constant="3" id="0h8-ca-snm"/>
                             <constraint firstItem="rEa-8D-q1Y" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="1sb-c5-yu2"/>

@@ -46,7 +46,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="mLi-3D-tNX" firstAttribute="centerY" secondItem="zAn-Yb-Nf9" secondAttribute="centerY" id="4hN-cb-unU"/>
                                     <constraint firstAttribute="trailing" secondItem="mLi-3D-tNX" secondAttribute="trailing" constant="20" id="Juh-Lf-xnh"/>
@@ -69,11 +69,11 @@
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qho-FQ-fKL">
                                 <rect key="frame" x="10" y="118" width="373" height="623"/>
-                                <color key="backgroundColor" red="0.9450981021" green="0.94509798290000002" blue="0.94509798290000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.1132849678" green="0.1235398427" blue="0.12363819030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write your question..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2qD-dO-LPV">
                                 <rect key="frame" x="20" y="751" width="296" height="52"/>
-                                <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.1132849678" green="0.1235398427" blue="0.12363819030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="HBP-hJ-DOZ"/>
                                 </constraints>
@@ -88,7 +88,7 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Eq-bK-U8c"/>
-                        <color key="backgroundColor" red="0.91764706370000004" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.1132849678" green="0.1235398427" blue="0.12363819030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Qho-FQ-fKL" firstAttribute="top" secondItem="sv6-Fm-KCx" secondAttribute="bottom" constant="10" id="5NM-j6-NbX"/>
                             <constraint firstItem="6Eq-bK-U8c" firstAttribute="bottom" secondItem="0R3-Ki-rzT" secondAttribute="bottom" constant="15" id="98X-7u-IH6"/>

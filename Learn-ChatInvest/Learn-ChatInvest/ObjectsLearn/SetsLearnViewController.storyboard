@@ -158,7 +158,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1133955792" green="0.1183975115" blue="0.1238771155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="gku-Bl-3JP" secondAttribute="bottom" constant="17.5" id="GMj-6C-ryd"/>
                                     <constraint firstAttribute="height" constant="108" id="Ihl-3u-O7S"/>
@@ -167,7 +167,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.91764706370000004" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.1132849678" green="0.1235398427" blue="0.12363819030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cT8-DY-efQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="BMC-Rq-BJ6"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7Yv-AC-4VH" secondAttribute="trailing" constant="20" id="Kih-Sj-r2O"/>

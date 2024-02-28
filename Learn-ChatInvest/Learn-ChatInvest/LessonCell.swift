@@ -19,6 +19,7 @@ class LessonCell: UITableViewCell {
         levelLearnLabel.layer.cornerRadius = 8
         levelLearnLabel.clipsToBounds = true
         levelLearnLabel.backgroundColor = .gray.withAlphaComponent(0.5)
+        selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

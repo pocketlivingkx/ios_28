@@ -53,6 +53,10 @@
 		04B046A22B7AA8240055EBFA /* test5.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B046992B7AA8240055EBFA /* test5.json */; };
 		04CE20542B7699100047607E /* FullLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE20532B7699100047607E /* FullLessonViewController.swift */; };
 		04CE20562B76991B0047607E /* FullLessonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE20552B76991B0047607E /* FullLessonViewController.storyboard */; };
+		04D1D4AD2B8E6CDF00D73681 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1D4AC2B8E6CDF00D73681 /* PositionViewController.swift */; };
+		04D1D4AF2B8E6CF300D73681 /* PositionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1D4AE2B8E6CF300D73681 /* PositionViewController.storyboard */; };
+		04D1D4B22B8E8BEA00D73681 /* PositionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1D4B02B8E8BEA00D73681 /* PositionTableViewCell.swift */; };
+		04D1D4B32B8E8BEA00D73681 /* PositionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D1D4B12B8E8BEA00D73681 /* PositionTableViewCell.xib */; };
 		04F25EB92B73ADB0008CBE70 /* LearningHowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */; };
 		04F25EBB2B73ADC2008CBE70 /* LearningHowToViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EBA2B73ADC2008CBE70 /* LearningHowToViewController.storyboard */; };
 		04F25EBD2B73B591008CBE70 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F25EBC2B73B591008CBE70 /* Inter-Bold.ttf */; };
@@ -112,6 +116,10 @@
 		04B046992B7AA8240055EBFA /* test5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test5.json; sourceTree = "<group>"; };
 		04CE20532B7699100047607E /* FullLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullLessonViewController.swift; sourceTree = "<group>"; };
 		04CE20552B76991B0047607E /* FullLessonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FullLessonViewController.storyboard; sourceTree = "<group>"; };
+		04D1D4AC2B8E6CDF00D73681 /* PositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		04D1D4AE2B8E6CF300D73681 /* PositionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PositionViewController.storyboard; sourceTree = "<group>"; };
+		04D1D4B02B8E8BEA00D73681 /* PositionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTableViewCell.swift; sourceTree = "<group>"; };
+		04D1D4B12B8E8BEA00D73681 /* PositionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PositionTableViewCell.xib; sourceTree = "<group>"; };
 		04F25EB82B73ADB0008CBE70 /* LearningHowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningHowToViewController.swift; sourceTree = "<group>"; };
 		04F25EBA2B73ADC2008CBE70 /* LearningHowToViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LearningHowToViewController.storyboard; sourceTree = "<group>"; };
 		04F25EBC2B73B591008CBE70 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
@@ -221,6 +229,10 @@
 				04B0468F2B7A9C800055EBFA /* test1.json */,
 				046AEF222B7E989A003F3182 /* ConverterLearningViewController.swift */,
 				046AEF242B7E98A8003F3182 /* ConverterLearningViewController.storyboard */,
+				04D1D4AC2B8E6CDF00D73681 /* PositionViewController.swift */,
+				04D1D4AE2B8E6CF300D73681 /* PositionViewController.storyboard */,
+				04D1D4B02B8E8BEA00D73681 /* PositionTableViewCell.swift */,
+				04D1D4B12B8E8BEA00D73681 /* PositionTableViewCell.xib */,
 			);
 			path = ObjectsLearn;
 			sourceTree = "<group>";
@@ -320,12 +332,14 @@
 				040C1BA42B766385005FA2A7 /* ListLessonsLearnVC.storyboard in Resources */,
 				04B0469A2B7AA8240055EBFA /* test2.json in Resources */,
 				040C1BA02B762A13005FA2A7 /* LessonsLearn.json in Resources */,
+				04D1D4AF2B8E6CF300D73681 /* PositionViewController.storyboard in Resources */,
 				041ACD342B759A38008EBBE8 /* NewsFeedCell.xib in Resources */,
 				041ACD2A2B758E81008EBBE8 /* LearnerViewController.storyboard in Resources */,
 				04B0469D2B7AA8240055EBFA /* test9.json in Resources */,
 				04767A3A2B72F270003BAD5A /* MainLauncher.storyboard in Resources */,
 				04B0468C2B7A95770055EBFA /* TestLearningVC.storyboard in Resources */,
 				04B0469C2B7AA8240055EBFA /* test6.json in Resources */,
+				04D1D4B32B8E8BEA00D73681 /* PositionTableViewCell.xib in Resources */,
 				04F25EC72B740E0B008CBE70 /* CustomBarLearnViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +365,9 @@
 				04B046882B7A8A310055EBFA /* ExamsViewController.swift in Sources */,
 				040C1B9D2B76254A005FA2A7 /* LessonCell.swift in Sources */,
 				04767A332B72F270003BAD5A /* AppDelegate.swift in Sources */,
+				04D1D4B22B8E8BEA00D73681 /* PositionTableViewCell.swift in Sources */,
 				04F25EC92B74240B008CBE70 /* TabViewTrade.swift in Sources */,
+				04D1D4AD2B8E6CDF00D73681 /* PositionViewController.swift in Sources */,
 				04767A352B72F270003BAD5A /* SceneDelegate.swift in Sources */,
 				040C1BA72B767BBD005FA2A7 /* LessonWithTimeLessonCell.swift in Sources */,
 				041ACD282B758C21008EBBE8 /* LearningBar.swift in Sources */,

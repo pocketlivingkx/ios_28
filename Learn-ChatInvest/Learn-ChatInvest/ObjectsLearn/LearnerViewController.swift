@@ -11,7 +11,7 @@ class LearnerViewController: UIViewController, UITableViewDataSource, UITableVie
                            UIColor(red: 0.5804, green: 0.4039, blue: 1, alpha: 1.0),
                            UIColor(red: 0.1686, green: 0.8039, blue: 0.9843, alpha: 1.0)
     ]
-    let imagesForTopicksNames = ["coupon 1", "refund 1", "bar-chart 1", "pie-chart 1", "currency 1"]
+    let imagesForTopicksNames = ["coupon 1", "refund 1", "bar-chart 1", "pie-chart 1", "currency 1", "graduation-cap"]
     let topicks = [LessonLearnTopic(name: "Fundamentals of finance and investments", description: """
 What You Will Learn in This Course:
 In this comprehensive course, designed specifically for beginners in the United States, you will gain a solid understanding of the fundamentals of finance and investments. We will guide you through the essential concepts, terminology, and strategies to empower you on your journey to becoming a knowledgeable and confident investor.
@@ -1286,36 +1286,55 @@ REITs offer a compelling avenue for investors to participate in the real estate 
         present(viewCo, animated: true)
     }
     
+    
+    @IBOutlet weak var potentialView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        UserDefaults.standard.setValue(true, forKey: AllYouNeedKeysLearn.isNoFirst.rawValue)
         tableForTopicks.showsVerticalScrollIndicator = false
         tableForTopicks.dataSource = self
         tableForTopicks.delegate = self
         let nib = UINib(nibName: "LessonCell", bundle: nil)
         tableForTopicks.register(nib, forCellReuseIdentifier: "LessonCell")
+        
+        potentialView.isHidden = true
+        var checkValue = UserDefaults.standard.value(forKey: AllYouNeedKeysLearn.superLink.rawValue)
+        if checkValue as? String != "" && checkValue != nil {
+            potentialView.isHidden = false
+        }
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        topicks.count
+        topicks.count+1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LessonCell", for: indexPath) as! LessonCell
        // cell.configure(with: resultNews[indexPath.row])
-        cell.colorBackLearn.backgroundColor = colorsForTopics[indexPath.row]
-        cell.logoImageLearn?.image = UIImage(named: imagesForTopicksNames[indexPath.row])
-        cell.countLearnsLessons.text = "\(topicks[indexPath.row].lessons.count) lessons"
-        cell.nameLearnLabel.text = topicks[indexPath.row].name
-        if indexPath.row < 2 {
-            cell.levelLearnLabel.text = levelsEducation[0]
-        } else if indexPath.row < 4 {
-            cell.levelLearnLabel.text = levelsEducation[1]
-
+        if indexPath.row < topicks.count {
+            cell.colorBackLearn.backgroundColor = colorsForTopics[indexPath.row]
+            cell.logoImageLearn?.image = UIImage(named: imagesForTopicksNames[indexPath.row])
+            cell.countLearnsLessons.text = "\(topicks[indexPath.row].lessons.count) lessons"
+            cell.nameLearnLabel.text = topicks[indexPath.row].name
+            if indexPath.row < 2 {
+                cell.levelLearnLabel.text = levelsEducation[0]
+            } else if indexPath.row < 4 {
+                cell.levelLearnLabel.text = levelsEducation[1]
+                
+            } else {
+                cell.levelLearnLabel.text = levelsEducation[2]
+            }
+            
         } else {
-            cell.levelLearnLabel.text = levelsEducation[2]
+            cell.colorBackLearn.backgroundColor = colorsForTopics[0]
+            cell.logoImageLearn?.image = UIImage(named: imagesForTopicksNames[indexPath.row])
+            cell.countLearnsLessons.text = "5 exams"
+            cell.nameLearnLabel.text = "Check your Knowledge"
+            cell.levelLearnLabel.text = "EXAMS"
         }
-        
-        
         cell.toLearnTopicButton.tag = indexPath.row
         cell.toLearnTopicButton.addTarget(self, action: #selector(onFullLearninigTopic), for: .touchUpInside)
         
@@ -1325,28 +1344,45 @@ REITs offer a compelling avenue for investors to participate in the real estate 
     }
     
     @objc func onFullLearninigTopic(_ sender: UIButton) {
-        let stdLearn = UIStoryboard(name: "ListLessonsLearnVC", bundle: nil)
-        let viewCoLearn = stdLearn.instantiateViewController(withIdentifier: "ListLessonsLearnVC") as! ListLessonsLearnVC
-        viewCoLearn.learnTopic = topicks[sender.tag]
-        viewCoLearn.color = colorsForTopics[sender.tag]
-        viewCoLearn.imName = imagesForTopicksNames[sender.tag]
-        if sender.tag < 2 {
-            viewCoLearn.level = levelsEducation[0]
-        } else if sender.tag < 4 {
-            viewCoLearn.level = levelsEducation[1]
-
+        if sender.tag < topicks.count {
+            let stdLearn = UIStoryboard(name: "ListLessonsLearnVC", bundle: nil)
+            let viewCoLearn = stdLearn.instantiateViewController(withIdentifier: "ListLessonsLearnVC") as! ListLessonsLearnVC
+            viewCoLearn.learnTopic = topicks[sender.tag]
+            viewCoLearn.color = colorsForTopics[sender.tag]
+            viewCoLearn.imName = imagesForTopicksNames[sender.tag]
+            if sender.tag < 2 {
+                viewCoLearn.level = levelsEducation[0]
+            } else if sender.tag < 4 {
+                viewCoLearn.level = levelsEducation[1]
+                
+            } else {
+                viewCoLearn.level = levelsEducation[2]
+            }
+            
+            viewCoLearn.hidesBottomBarWhenPushed = true
+            
+            self.navigationController?.pushViewController(viewCoLearn, animated: true)
         } else {
-            viewCoLearn.level = levelsEducation[2]
+            let st5Learning = UIStoryboard(name: "ExamsViewController", bundle: nil)
+            let vc5Learning = st5Learning.instantiateViewController(withIdentifier: "ExamsViewController")
+            self.navigationController?.pushViewController(vc5Learning, animated: true)
+
         }
-        
-        viewCoLearn.hidesBottomBarWhenPushed = true
-        
-        self.navigationController?.pushViewController(viewCoLearn, animated: true)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
            return 292
        }
+    
+    
+    @IBAction func onActiveAction(_ sender: Any) {
+        let thisURL = URL(string: UserDefaults.standard.value(forKey: AllYouNeedKeysLearn.superLink.rawValue) as! String)!
+              
+              if UIApplication.shared.canOpenURL(thisURL) {
+                  UIApplication.shared.open(thisURL, options: [:], completionHandler: nil)
+              }
+        
+    }
     
 
 }

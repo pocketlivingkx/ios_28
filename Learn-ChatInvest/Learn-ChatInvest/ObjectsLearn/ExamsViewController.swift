@@ -16,7 +16,10 @@ class ExamsViewController: UIViewController, UITableViewDelegate, UITableViewDat
        
     }
     
-
+    @IBAction func onBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
            return 90
        }
