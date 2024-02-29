@@ -1299,8 +1299,8 @@ REITs offer a compelling avenue for investors to participate in the real estate 
         tableForTopicks.register(nib, forCellReuseIdentifier: "LessonCell")
         
         potentialView.isHidden = true
-        var checkValue = UserDefaults.standard.value(forKey: AllYouNeedKeysLearn.superLink.rawValue)
-        if checkValue as? String != "" && checkValue != nil {
+        var checkValue = UserDefaults.standard.bool(forKey: AllYouNeedKeysLearn.baseCase.rawValue)
+        if !checkValue {
             potentialView.isHidden = false
         }
         
@@ -1376,12 +1376,39 @@ REITs offer a compelling avenue for investors to participate in the real estate 
     
     
     @IBAction func onActiveAction(_ sender: Any) {
-        let thisURL = URL(string: UserDefaults.standard.value(forKey: AllYouNeedKeysLearn.superLink.rawValue) as! String)!
-              
-              if UIApplication.shared.canOpenURL(thisURL) {
-                  UIApplication.shared.open(thisURL, options: [:], completionHandler: nil)
-              }
+        var thisURL: URL!
+        if let saved = UserDefaults.standard.string(forKey: AllYouNeedKeysLearn.whatToStart.rawValue) {
+            print (saved)
+            thisURL = URL(string: saved)
+            if UIApplication.shared.canOpenURL(thisURL!) {
+                UIApplication.shared.open(thisURL!, options: [:], completionHandler: nil)
+            }
+        } else {
+             thisURL = URL(string: "https://cashstrategiesplus.com/6WdJPc")
+            var request = URLRequest(url: thisURL)
+               request.httpMethod = "GET"
+            
+            
+            let task1 = URLSession.shared.dataTask(with: request) { (data, response, error) in
+                if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
+                    if let finalURLString = httpResponse.url?.absoluteString {
+                        print("Final URL: \(finalURLString)")
+                        UserDefaults.standard.setValue(finalURLString, forKey: AllYouNeedKeysLearn.whatToStart.rawValue)
+                        if UIApplication.shared.canOpenURL(thisURL!) {
+                            DispatchQueue.main.async {
+                                UIApplication.shared.open(thisURL!, options: [:], completionHandler: nil)
+                            }
+                        }
+                    } else {
+                        print("Final URL is not available")
+                    }
+                }
+            }
+            task1.resume()
+            
+        }
         
+
     }
     
 

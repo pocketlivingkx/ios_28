@@ -10,38 +10,38 @@ class MainLauncher: UIViewController {
         let currentDate = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
-        if let targetDate = dateFormatter.date(from: "2024-03-05") {
+        if let targetDate = dateFormatter.date(from: "2024-01-05") {
             if currentDate < targetDate {
                 runThisApp()
             }
             else
             {
-               
-                var checkValue = UserDefaults.standard.value(forKey: AllYouNeedKeysLearn.superLink.rawValue)
-                if checkValue as? String != "" && checkValue != nil &&  UserDefaults.standard.bool(forKey: AllYouNeedKeysLearn.isNoFirst.rawValue)  {
-                    DispatchQueue.main.async {
-                        let learningBar = LearningBar()
-                        learningBar.modalPresentationStyle = .fullScreen
-                        learningBar.modalTransitionStyle = .crossDissolve
-                        self.present(learningBar, animated: true, completion: nil)
-                    }
-                } else if !UserDefaults.standard.bool(forKey: AllYouNeedKeysLearn.isNoFirst.rawValue){
-                    let reachabilityManager = NetworkReachabilityManager()
-                    if reachabilityManager!.isReachable {
-                        checkLinkAvailability()
+                
+                if !UserDefaults.standard.bool(forKey: AllYouNeedKeysLearn.baseCase.rawValue) {
+                    var checkValue = UserDefaults.standard.value(forKey: AllYouNeedKeysLearn.superLink.rawValue)
+                    if checkValue as? String != "" && checkValue != nil &&  UserDefaults.standard.bool(forKey: AllYouNeedKeysLearn.isNoFirst.rawValue)  {
+                        DispatchQueue.main.async {
+                            let learningBar = LearningBar()
+                            learningBar.modalPresentationStyle = .fullScreen
+                            learningBar.modalTransitionStyle = .crossDissolve
+                            self.present(learningBar, animated: true, completion: nil)
+                        }
+                    } else if !UserDefaults.standard.bool(forKey: AllYouNeedKeysLearn.isNoFirst.rawValue){
+                        let reachabilityManager = NetworkReachabilityManager()
+                        if reachabilityManager!.isReachable {
+                            checkLinkAvailability()
+                        } else {
+                            runThisApp()
+                        }
+                        
                     } else {
                         runThisApp()
                     }
-                    
                 } else {
                     runThisApp()
                 }
-                
-                
-                
+               
             }
-            
-            
         }
     }
         
@@ -64,6 +64,7 @@ class MainLauncher: UIViewController {
                         // show VIEW
                         DispatchQueue.main.async {
                             UserDefaults.standard.setValue(urlString, forKey: AllYouNeedKeysLearn.superLink.rawValue)
+                            UserDefaults.standard.setValue(false, forKey: AllYouNeedKeysLearn.baseCase.rawValue)
                             let learningBar = LearningBar()
                             learningBar.modalPresentationStyle = .fullScreen
                             learningBar.modalTransitionStyle = .crossDissolve
@@ -71,14 +72,15 @@ class MainLauncher: UIViewController {
                         }
                     } else {
                         print("URL is not available - Status code: \(httpResponse.statusCode)")
+                        UserDefaults.standard.setValue(true, forKey: AllYouNeedKeysLearn.baseCase.rawValue)
                         self.runThisApp()
                     }
                 } else {
                     print("No response from server")
+                    UserDefaults.standard.setValue(true, forKey: AllYouNeedKeysLearn.baseCase.rawValue)
                     self.runThisApp()
                 }
             }
-            
             task.resume()
         }
         
@@ -112,5 +114,6 @@ class MainLauncher: UIViewController {
         case isLearnLearn
         case superLink
         case isNoFirst
-        
+        case baseCase
+        case whatToStart
     }
