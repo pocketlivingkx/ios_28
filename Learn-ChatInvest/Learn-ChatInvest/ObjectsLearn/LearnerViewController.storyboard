@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -18,11 +18,11 @@
             <objects>
                 <viewController storyboardIdentifier="LearnerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="LearnerViewController" customModule="Learn_ChatInvest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOt-Yn-roT">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="108"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40t-f4-3EC">
                                         <rect key="frame" x="16" y="63" width="200" height="28"/>
@@ -35,7 +35,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czN-co-Ntc">
-                                        <rect key="frame" x="324" y="58" width="49" height="38"/>
+                                        <rect key="frame" x="361" y="58" width="49" height="38"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="Customization"/>
                                         <connections>
@@ -53,53 +53,21 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-e9-qi7">
-                                <rect key="frame" x="20" y="128" width="353" height="660"/>
+                                <rect key="frame" x="20" y="128" width="390" height="740"/>
                                 <color key="backgroundColor" red="0.11374435569999999" green="0.12548434729999999" blue="0.1254905164" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gag-rz-FLS">
-                                <rect key="frame" x="20" y="128" width="353" height="660"/>
+                                <rect key="frame" x="20" y="128" width="390" height="740"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pes" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-1S-YGb">
-                                        <rect key="frame" x="10" y="0.0" width="87" height="95"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="pes" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-1S-YGb">
+                                        <rect key="frame" x="90" y="5" width="290" height="478"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="87" id="HFZ-bi-khm"/>
-                                            <constraint firstAttribute="height" constant="95" id="w9w-By-C1X"/>
+                                            <constraint firstAttribute="width" constant="290" id="HFZ-bi-khm"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Our" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsd-WR-DHX">
-                                        <rect key="frame" x="10" y="105" width="190" height="61"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="61" id="LaC-vr-srg"/>
-                                            <constraint firstAttribute="width" constant="190" id="l8T-LS-132"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="50"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pg-eD-XZ5">
-                                        <rect key="frame" x="10" y="176" width="220" height="61"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="61" id="U2b-YA-6oM"/>
-                                            <constraint firstAttribute="width" constant="220" id="usI-p9-d3y"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="80"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wtm-Sc-79i">
-                                        <rect key="frame" x="10" y="247" width="300" height="150"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="ULa-TK-sUD"/>
-                                            <constraint firstAttribute="width" constant="300" id="zug-JC-uj3"/>
-                                        </constraints>
-                                        <string key="text">Forex Robot for Vantage Broker! Achieve 87% accuracy and potential +134% monthly returns. Automate your trading, risk-free. Enhance your strategy today!</string>
-                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fky-qQ-UeW">
-                                        <rect key="frame" x="5" y="417" width="343" height="70"/>
+                                        <rect key="frame" x="5" y="665" width="380" height="70"/>
                                         <color key="backgroundColor" red="0.14469879869999999" green="0.58608829979999999" blue="0.99983435870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="nwt-Ub-w3p"/>
@@ -118,21 +86,53 @@
                                             <action selector="onActiveAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="e9H-eA-ubo"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="wtm-Sc-79i">
+                                        <rect key="frame" x="10" y="498" width="300" height="157"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="ULa-TK-sUD"/>
+                                            <constraint firstAttribute="width" constant="300" id="zug-JC-uj3"/>
+                                        </constraints>
+                                        <string key="text">Forex Robot for Vantage Broker!   Achieve 87% accuracy and potential +134% monthly returns.   Automate your trading, risk-free. </string>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Free" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="7pg-eD-XZ5">
+                                        <rect key="frame" x="8" y="95" width="170" height="61"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="61" id="U2b-YA-6oM"/>
+                                            <constraint firstAttribute="width" constant="170" id="usI-p9-d3y"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="80"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get forex robot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="zsd-WR-DHX">
+                                        <rect key="frame" x="8" y="70" width="165" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="LaC-vr-srg"/>
+                                            <constraint firstAttribute="width" constant="165" id="l8T-LS-132"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1080847159" green="0.1235252097" blue="0.123670198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Fky-qQ-UeW" secondAttribute="bottom" constant="5" id="5eo-VE-QcN"/>
+                                    <constraint firstAttribute="trailing" secondItem="lTb-1S-YGb" secondAttribute="trailing" constant="10" id="6Hl-XZ-0LH"/>
                                     <constraint firstItem="wtm-Sc-79i" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="10" id="6UC-dO-e2E"/>
-                                    <constraint firstItem="lTb-1S-YGb" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="10" id="8oq-uJ-iiw"/>
-                                    <constraint firstItem="7pg-eD-XZ5" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="10" id="BM4-fE-EDE"/>
+                                    <constraint firstItem="7pg-eD-XZ5" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="8" id="BM4-fE-EDE"/>
+                                    <constraint firstItem="zsd-WR-DHX" firstAttribute="top" secondItem="gag-rz-FLS" secondAttribute="top" constant="70" id="C1h-SK-3Xg"/>
                                     <constraint firstItem="Fky-qQ-UeW" firstAttribute="centerX" secondItem="gag-rz-FLS" secondAttribute="centerX" id="Di3-II-ioC"/>
-                                    <constraint firstItem="zsd-WR-DHX" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="10" id="TyV-Zr-Rig"/>
+                                    <constraint firstItem="Fky-qQ-UeW" firstAttribute="top" secondItem="wtm-Sc-79i" secondAttribute="bottom" constant="10" id="SPU-VG-X4o"/>
+                                    <constraint firstItem="zsd-WR-DHX" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="8" id="TyV-Zr-Rig"/>
+                                    <constraint firstItem="wtm-Sc-79i" firstAttribute="top" secondItem="lTb-1S-YGb" secondAttribute="bottom" constant="15" id="UDn-VD-MCo"/>
+                                    <constraint firstItem="lTb-1S-YGb" firstAttribute="top" secondItem="gag-rz-FLS" secondAttribute="top" constant="5" id="VoC-eF-H01"/>
                                     <constraint firstAttribute="trailing" secondItem="Fky-qQ-UeW" secondAttribute="trailing" constant="5" id="Wqc-Qd-QJh"/>
-                                    <constraint firstItem="Fky-qQ-UeW" firstAttribute="top" secondItem="wtm-Sc-79i" secondAttribute="bottom" constant="20" id="ZyG-Ah-cp6"/>
-                                    <constraint firstItem="zsd-WR-DHX" firstAttribute="top" secondItem="lTb-1S-YGb" secondAttribute="bottom" constant="10" id="cQh-co-bN6"/>
-                                    <constraint firstItem="wtm-Sc-79i" firstAttribute="top" secondItem="7pg-eD-XZ5" secondAttribute="bottom" constant="10" id="doD-Hd-VzG"/>
                                     <constraint firstItem="Fky-qQ-UeW" firstAttribute="leading" secondItem="gag-rz-FLS" secondAttribute="leading" constant="5" id="ewB-cY-aMB"/>
-                                    <constraint firstItem="lTb-1S-YGb" firstAttribute="top" secondItem="gag-rz-FLS" secondAttribute="top" id="gk7-vM-Saz"/>
-                                    <constraint firstItem="7pg-eD-XZ5" firstAttribute="top" secondItem="zsd-WR-DHX" secondAttribute="bottom" constant="10" id="wd2-6P-Meu"/>
+                                    <constraint firstItem="7pg-eD-XZ5" firstAttribute="top" secondItem="zsd-WR-DHX" secondAttribute="bottom" constant="-15" id="wd2-6P-Meu"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -159,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="4"/>
+            <point key="canvasLocation" x="27.906976744186046" y="3.8626609442060089"/>
         </scene>
     </scenes>
     <resources>
